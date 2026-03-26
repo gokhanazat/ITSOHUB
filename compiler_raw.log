@@ -1,0 +1,344 @@
+﻿Initialized native services in: C:\Users\gkhna\.gradle\native
+Initialized jansi services in: C:\Users\gkhna\.gradle\native
+The client will now receive all logging from the daemon (pid: 21736). The daemon log file: C:\Users\gkhna\.gradle\daemon\8.14.3\daemon-21736.out.log
+Starting 36th build in daemon [uptime: 4 hrs 13 mins 9.319 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 4 GiB]
+Using 16 worker leases.
+Now considering [C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE] as hierarchies to watch
+Reusing configuration cache.
+Now considering [C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Using local directory build cache for the root build (location = C:\Users\gkhna\.gradle\caches\build-cache-1, remove unused entries = after 7 days).
+Tasks to be executed: [task ':composeApp:kmpPartiallyResolvedDependenciesChecker', task ':composeApp:checkKotlinGradlePluginConfigurationErrors', task ':composeApp:convertXmlValueResourcesForAndroidMain', task ':composeApp:copyNonXmlValueResourcesForAndroidMain', task ':composeApp:prepareComposeResourcesTaskForAndroidMain', task ':composeApp:generateResourceAccessorsForAndroidMain', task ':composeApp:convertXmlValueResourcesForCommonMain', task ':composeApp:copyNonXmlValueResourcesForCommonMain', task ':composeApp:prepareComposeResourcesTaskForCommonMain', task ':composeApp:generateResourceAccessorsForCommonMain', task ':composeApp:generateActualResourceCollectorsForAndroidMain', task ':composeApp:generateComposeResClass', task ':composeApp:generateExpectResourceCollectorsForCommonMain', task ':composeApp:convertXmlValueResourcesForAndroidDebug', task ':composeApp:copyNonXmlValueResourcesForAndroidDebug', task ':composeApp:prepareComposeResourcesTaskForAndroidDebug', task ':composeApp:generateResourceAccessorsForAndroidDebug', task ':composeApp:preBuild', task ':composeApp:preDebugBuild', task ':composeApp:checkDebugAarMetadata', task ':composeApp:generateDebugResValues', task ':composeApp:processDebugGoogleServices', task ':composeApp:mapDebugSourceSetPaths', task ':composeApp:generateDebugResources', task ':composeApp:mergeDebugResources', task ':composeApp:copyDebugComposeResourcesToAndroidAssets', task ':composeApp:packageDebugResources', task ':composeApp:parseDebugLocalResources', task ':composeApp:createDebugCompatibleScreenManifests', task ':composeApp:extractDeepLinksDebug', task ':composeApp:processDebugMainManifest', task ':composeApp:processDebugManifest', task ':composeApp:processDebugManifestForPackage', task ':composeApp:processDebugResources', task ':composeApp:compileDebugKotlinAndroid']
+Tasks that were excluded: []
+Resolve mutations for :composeApp:kmpPartiallyResolvedDependenciesChecker (Thread[#2770,Execution worker,5,main]) started.
+:composeApp:kmpPartiallyResolvedDependenciesChecker (Thread[#2770,Execution worker,5,main]) started.
+Resolve mutations for :composeApp:convertXmlValueResourcesForAndroidMain (Thread[#2771,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :composeApp:convertXmlValueResourcesForCommonMain (Thread[#2773,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForAndroidMain (Thread[#2772,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForCommonMain (Thread[#2775,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :composeApp:generateComposeResClass (Thread[#2774,Execution worker Thread 5,5,main]) started.
+:composeApp:generateComposeResClass (Thread[#2774,Execution worker Thread 5,5,main]) started.
+:composeApp:copyNonXmlValueResourcesForAndroidMain (Thread[#2772,Execution worker Thread 3,5,main]) started.
+:composeApp:copyNonXmlValueResourcesForCommonMain (Thread[#2775,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :composeApp:generateExpectResourceCollectorsForCommonMain (Thread[#2771,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :composeApp:convertXmlValueResourcesForAndroidDebug (Thread[#2776,Execution worker Thread 7,5,main]) started.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForAndroidDebug (Thread[#2773,Execution worker Thread 4,5,main]) started.
+:composeApp:generateExpectResourceCollectorsForCommonMain (Thread[#2771,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :composeApp:preBuild (Thread[#2778,Execution worker Thread 8,5,main]) started.
+:composeApp:preBuild (Thread[#2778,Execution worker Thread 8,5,main]) started.
+:composeApp:copyNonXmlValueResourcesForAndroidDebug (Thread[#2773,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :composeApp:processDebugGoogleServices (Thread[#2776,Execution worker Thread 7,5,main]) started.
+:composeApp:processDebugGoogleServices (Thread[#2776,Execution worker Thread 7,5,main]) started.
+
+> Task :composeApp:preBuild UP-TO-DATE
+Skipping task ':composeApp:preBuild' as it has no actions.
+Resolve mutations for :composeApp:preDebugBuild (Thread[#2778,Execution worker Thread 8,5,main]) started.
+:composeApp:preDebugBuild (Thread[#2778,Execution worker Thread 8,5,main]) started.
+
+> Task :composeApp:preDebugBuild UP-TO-DATE
+Skipping task ':composeApp:preDebugBuild' as it has no actions.
+Resolve mutations for :composeApp:checkDebugAarMetadata (Thread[#2778,Execution worker Thread 8,5,main]) started.
+Build 43bc9f93-28a1-4d9d-b3af-bedefd629c58 is started
+Resolve mutations for :composeApp:generateDebugResValues (Thread[#2769,included builds,5,main]) started.
+:composeApp:checkDebugAarMetadata (Thread[#2778,Execution worker Thread 8,5,main]) started.
+Resolve mutations for :composeApp:createDebugCompatibleScreenManifests (Thread[#2780,Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:copyNonXmlValueResourcesForAndroidDebug NO-SOURCE
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\preparedResources\androidDebug\composeResources', not found
+Skipping task ':composeApp:copyNonXmlValueResourcesForAndroidDebug' as it has no source files and no previous output files.
+:composeApp:generateDebugResValues (Thread[#2769,included builds,5,main]) started.
+:composeApp:convertXmlValueResourcesForAndroidDebug (Thread[#2773,Execution worker Thread 4,5,main]) started.
+
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\preparedResources\androidMain\composeResources', not found
+Skipping task ':composeApp:copyNonXmlValueResourcesForAndroidMain' as it has no source files and no previous output files.
+
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+Caching disabled for task ':composeApp:generateComposeResClass' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateComposeResClass' as it is up-to-date.
+
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+Caching disabled for task ':composeApp:kmpPartiallyResolvedDependenciesChecker' because:
+  This task is not intended for execution
+Task ':composeApp:kmpPartiallyResolvedDependenciesChecker' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Execution stopped by some action with message: null
+
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+Caching disabled for task ':composeApp:generateExpectResourceCollectorsForCommonMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateExpectResourceCollectorsForCommonMain' as it is up-to-date.
+Resolve mutations for :composeApp:checkKotlinGradlePluginConfigurationErrors (Thread[#2774,Execution worker Thread 5,5,main]) started.
+:composeApp:checkKotlinGradlePluginConfigurationErrors (Thread[#2771,Execution worker Thread 2,5,main]) started.
+
+> Task :composeApp:convertXmlValueResourcesForAndroidDebug NO-SOURCE
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\preparedResources\androidDebug\composeResources', not found
+Skipping task ':composeApp:convertXmlValueResourcesForAndroidDebug' as it has no source files and no previous output files.
+:composeApp:convertXmlValueResourcesForAndroidMain (Thread[#2772,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForAndroidDebug (Thread[#2783,Execution worker Thread 13,5,main]) started.
+
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':composeApp:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :composeApp:generateDebugResValues UP-TO-DATE
+Build cache key for task ':composeApp:generateDebugResValues' is fab9e61264f7a367c3a4e622ebf57751
+Skipping task ':composeApp:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :composeApp:generateDebugResources (Thread[#2769,included builds,5,main]) started.
+
+> Task :composeApp:processDebugGoogleServices UP-TO-DATE
+Build cache key for task ':composeApp:processDebugGoogleServices' is 3cc3fde419db5aa673d55677fbee3e27
+Skipping task ':composeApp:processDebugGoogleServices' as it is up-to-date.
+
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\preparedResources\androidMain\composeResources', not found
+Skipping task ':composeApp:convertXmlValueResourcesForAndroidMain' as it has no source files and no previous output files.
+:composeApp:prepareComposeResourcesTaskForAndroidDebug (Thread[#2783,Execution worker Thread 13,5,main]) started.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForAndroidMain (Thread[#2772,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :composeApp:mapDebugSourceSetPaths (Thread[#2776,Execution worker Thread 7,5,main]) started.
+Resolve mutations for :composeApp:extractDeepLinksDebug (Thread[#2781,Execution worker Thread 11,5,main]) started.
+:composeApp:mapDebugSourceSetPaths (Thread[#2776,Execution worker Thread 7,5,main]) started.
+:composeApp:generateDebugResources (Thread[#2769,included builds,5,main]) started.
+:composeApp:extractDeepLinksDebug (Thread[#2781,Execution worker Thread 11,5,main]) started.
+
+> Task :composeApp:prepareComposeResourcesTaskForAndroidDebug NO-SOURCE
+Skipping task ':composeApp:prepareComposeResourcesTaskForAndroidDebug' as it has no source files and no previous output files.
+:composeApp:prepareComposeResourcesTaskForAndroidMain (Thread[#2772,Execution worker Thread 3,5,main]) started.
+:composeApp:createDebugCompatibleScreenManifests (Thread[#2780,Execution worker Thread 10,5,main]) started.
+
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+Skipping task ':composeApp:prepareComposeResourcesTaskForAndroidMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:generateResourceAccessorsForAndroidMain (Thread[#2772,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :composeApp:generateResourceAccessorsForAndroidDebug (Thread[#2783,Execution worker Thread 13,5,main]) started.
+:composeApp:generateResourceAccessorsForAndroidMain (Thread[#2772,Execution worker Thread 3,5,main]) started.
+:composeApp:generateResourceAccessorsForAndroidDebug (Thread[#2783,Execution worker Thread 13,5,main]) started.
+
+> Task :composeApp:generateDebugResources UP-TO-DATE
+Build cache key for task ':composeApp:generateDebugResources' is 8bc7c1fdac879bf97bdb0209e5e7f046
+Skipping task ':composeApp:generateDebugResources' as it is up-to-date.
+Resolve mutations for :composeApp:mergeDebugResources (Thread[#2769,included builds,5,main]) started.
+
+> Task :composeApp:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':composeApp:createDebugCompatibleScreenManifests' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:createDebugCompatibleScreenManifests' as it is up-to-date.
+
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+Skipping task ':composeApp:generateResourceAccessorsForAndroidMain' as it has no source files and no previous output files.
+
+> Task :composeApp:extractDeepLinksDebug UP-TO-DATE
+Build cache key for task ':composeApp:extractDeepLinksDebug' is 0d152ed1aa23fdafabb77a54b9da4cd5
+Skipping task ':composeApp:extractDeepLinksDebug' as it is up-to-date.
+
+> Task :composeApp:generateResourceAccessorsForAndroidDebug NO-SOURCE
+Skipping task ':composeApp:generateResourceAccessorsForAndroidDebug' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:processDebugMainManifest (Thread[#2781,Execution worker Thread 11,5,main]) started.
+:composeApp:mergeDebugResources (Thread[#2769,included builds,5,main]) started.
+:composeApp:processDebugMainManifest (Thread[#2781,Execution worker Thread 11,5,main]) started.
+
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+Caching disabled for task ':composeApp:copyNonXmlValueResourcesForCommonMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:copyNonXmlValueResourcesForCommonMain' as it is up-to-date.
+:composeApp:convertXmlValueResourcesForCommonMain (Thread[#2775,Execution worker Thread 6,5,main]) started.
+
+> Task :composeApp:convertXmlValueResourcesForCommonMain UP-TO-DATE
+Caching disabled for task ':composeApp:convertXmlValueResourcesForCommonMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:convertXmlValueResourcesForCommonMain' as it is up-to-date.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForCommonMain (Thread[#2775,Execution worker Thread 6,5,main]) started.
+:composeApp:prepareComposeResourcesTaskForCommonMain (Thread[#2775,Execution worker Thread 6,5,main]) started.
+
+> Task :composeApp:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':composeApp:mapDebugSourceSetPaths' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:mapDebugSourceSetPaths' as it is up-to-date.
+
+> Task :composeApp:mergeDebugResources UP-TO-DATE
+Build cache key for task ':composeApp:mergeDebugResources' is ee9448024b13bfc439cf3dcab03f3444
+Skipping task ':composeApp:mergeDebugResources' as it is up-to-date.
+
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+Caching disabled for task ':composeApp:prepareComposeResourcesTaskForCommonMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:prepareComposeResourcesTaskForCommonMain' as it is up-to-date.
+
+> Task :composeApp:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':composeApp:checkDebugAarMetadata' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :composeApp:generateResourceAccessorsForCommonMain (Thread[#2775,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :composeApp:copyDebugComposeResourcesToAndroidAssets (Thread[#2769,included builds,5,main]) started.
+:composeApp:generateResourceAccessorsForCommonMain (Thread[#2785,Execution worker Thread 15,5,main]) started.
+
+> Task :composeApp:generateResourceAccessorsForCommonMain UP-TO-DATE
+Caching disabled for task ':composeApp:generateResourceAccessorsForCommonMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateResourceAccessorsForCommonMain' as it is up-to-date.
+Resolve mutations for :composeApp:generateActualResourceCollectorsForAndroidMain (Thread[#2785,Execution worker Thread 15,5,main]) started.
+:composeApp:generateActualResourceCollectorsForAndroidMain (Thread[#2782,Execution worker Thread 12,5,main]) started.
+:composeApp:copyDebugComposeResourcesToAndroidAssets (Thread[#2769,included builds,5,main]) started.
+
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain UP-TO-DATE
+Caching disabled for task ':composeApp:generateActualResourceCollectorsForAndroidMain' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateActualResourceCollectorsForAndroidMain' as it is up-to-date.
+
+> Task :composeApp:copyDebugComposeResourcesToAndroidAssets UP-TO-DATE
+Caching disabled for task ':composeApp:copyDebugComposeResourcesToAndroidAssets' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:copyDebugComposeResourcesToAndroidAssets' as it is up-to-date.
+Resolve mutations for :composeApp:packageDebugResources (Thread[#2769,included builds,5,main]) started.
+:composeApp:packageDebugResources (Thread[#2769,included builds,5,main]) started.
+
+> Task :composeApp:packageDebugResources UP-TO-DATE
+Build cache key for task ':composeApp:packageDebugResources' is 276e6af020ac0af23d2a2489b70a9441
+Skipping task ':composeApp:packageDebugResources' as it is up-to-date.
+Resolve mutations for :composeApp:parseDebugLocalResources (Thread[#2769,included builds,5,main]) started.
+:composeApp:parseDebugLocalResources (Thread[#2785,Execution worker Thread 15,5,main]) started.
+
+> Task :composeApp:parseDebugLocalResources UP-TO-DATE
+Build cache key for task ':composeApp:parseDebugLocalResources' is 60ce3187fcb1e857f93b95b5290e07c1
+Skipping task ':composeApp:parseDebugLocalResources' as it is up-to-date.
+
+> Task :composeApp:processDebugMainManifest UP-TO-DATE
+Build cache key for task ':composeApp:processDebugMainManifest' is 4da8a5e5949e51d368aa83318942c62f
+Skipping task ':composeApp:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :composeApp:processDebugManifest (Thread[#2781,Execution worker Thread 11,5,main]) started.
+:composeApp:processDebugManifest (Thread[#2781,Execution worker Thread 11,5,main]) started.
+
+> Task :composeApp:processDebugManifest UP-TO-DATE
+Build cache key for task ':composeApp:processDebugManifest' is 8ea6aff1a858c9f50700d5ab53857042
+Skipping task ':composeApp:processDebugManifest' as it is up-to-date.
+Resolve mutations for :composeApp:processDebugManifestForPackage (Thread[#2781,Execution worker Thread 11,5,main]) started.
+:composeApp:processDebugManifestForPackage (Thread[#2781,Execution worker Thread 11,5,main]) started.
+
+> Task :composeApp:processDebugManifestForPackage UP-TO-DATE
+Build cache key for task ':composeApp:processDebugManifestForPackage' is 43b0a7fc9f14cdab94f76f20e4c77f96
+Skipping task ':composeApp:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :composeApp:processDebugResources (Thread[#2781,Execution worker Thread 11,5,main]) started.
+:composeApp:processDebugResources (Thread[#2781,Execution worker Thread 11,5,main]) started.
+
+> Task :composeApp:processDebugResources UP-TO-DATE
+Build cache key for task ':composeApp:processDebugResources' is 85b387a511b7b88d5298385b5a0d3f9e
+Skipping task ':composeApp:processDebugResources' as it is up-to-date.
+Resolve mutations for :composeApp:compileDebugKotlinAndroid (Thread[#2781,Execution worker Thread 11,5,main]) started.
+:composeApp:compileDebugKotlinAndroid (Thread[#2781,Execution worker Thread 11,5,main]) started.
+
+> Task :composeApp:compileDebugKotlinAndroid FAILED
+Build cache key for task ':composeApp:compileDebugKotlinAndroid' is 9549e0e04877630c4deaffddd51ebe31
+Task ':composeApp:compileDebugKotlinAndroid' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':composeApp:compileDebugKotlinAndroid'.
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidDebug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidDebugResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidMainResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidDebug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidDebugResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidDebug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidDebugResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidMainResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidDebug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidDebugResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidMainResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidDebug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidDebugResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidMainResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidDebug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidDebugResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidMainResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\kotlin', not found
+Kotlin source files: C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\core\pdf\PdfGenerator.android.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\core\pdf\util\FileSaver.android.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\MainActivity.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\manager\LanguageHelper.android.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\manager\LanguagePreferenceManager.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\manager\NotificationPreferenceManager.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\Platform.android.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidMain\kotlin\com\mgacreative\globaltrade\ui\education\VideoContainer.android.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidMainResourceCollectors\itsohub\composeapp\generated\resources\ActualResourceCollectors.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\App.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\audit\AuditEvent.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\audit\AuditLogger.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\audit\SafeAuditLog.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\auth\Permission.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\auth\PermissionManager.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\auth\Role.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\auth\RolePermissionMatrix.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\auth\User.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\audit\AuditDomainService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\audit\AuditFeatureFlags.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\auth\RegistryService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\auth\SettingsService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\b2b\AdminScoringConfig.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\b2b\B2BCompany.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\b2b\B2BMatchRankingService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\b2b\B2BScoreExplanationBuilder.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\b2b\B2BScoreResult.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\b2b\B2BScoringEngine.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\b2b\CompanyService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\consultant\ConsultantService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\education\EducationService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\marketplace\AmazonAdapter.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\marketplace\MarketplaceAdapter.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\marketplace\MarketplaceProduct.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\marketplace\MarketplaceProvider.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\marketplace\MarketplaceService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\marketplace\MockAdapter.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\marketplace\TrendyolAdapter.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\domain\showroom\ProductService.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\error\AppError.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\error\AppResult.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\pdf\PdfGenerator.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\pdf\util\FileSaver.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\presentation\BaseViewModel.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\presentation\components\ErrorEventEffect.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\presentation\components\PermissionGate.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\presentation\SnackbarManager.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\util\CommonFormatters.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\util\DefaultSecureConfigProvider.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\core\util\SecureConfigProvider.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\Greeting.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\manager\LanguageHelper.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\manager\NotificationPreferenceManager.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\Platform.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\test\TestKamel.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\admin\AdminDashboardScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\admin\AuditLogScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\admin\consultant\AdminConsultantScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\admin\education\AdminEducationScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\admin\RegistryManagementScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\admin\UserManagementScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\appointment\AppointmentsScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\auth\LoginScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\b2b\B2BMatchScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\components\ItsoLogo.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\components\MarketplaceProductCard.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\components\MatchCard.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\components\ProductCard.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\education\EducationDetailScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\education\EducationModels.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\education\EducationScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\education\VideoContainer.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\home\HomeDashboardScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\home\MainHomeScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\marketplace\MarketplaceScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\navigation\NavGraph.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\navigation\NavigationGuard.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\navigation\Screen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\screens\CompanySettingsScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\screens\HelpCenterScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\screens\ProductManagementScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\screens\ProfileScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\screens\SecuritySettingsScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\settings\LanguageSettingsScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\settings\NotificationSettingsScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\showroom\ProductDetailScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\showroom\ShowroomScreen.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\theme\Color.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\commonMain\kotlin\com\mgacreative\globaltrade\ui\theme\Theme.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\commonResClass\itsohub\composeapp\generated\resources\Res.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\commonMainResourceAccessors\itsohub\composeapp\generated\resources\Drawable0.commonMain.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\commonMainResourceAccessors\itsohub\composeapp\generated\resources\String0.commonMain.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\commonMainResourceAccessors\itsohub\composeapp\generated\resources\String1.commonMain.kt, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\commonMainResourceCollectors\itsohub\composeapp\generated\resources\ExpectResourceCollectors.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\androidDebug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidDebugResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\generated\compose\resourceGenerator\kotlin\androidMainResourceAccessors', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\kotlin', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\main\java', not found
+file or directory 'C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\src\debug\java', not found
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: C:\Users\gkhna\.gradle\jdks\jetbrains_s_r_o_-21-amd64-windows.2
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Unknown@44128b5c, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\kotlin\compileDebugKotlinAndroid\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\kotlin\compileDebugKotlinAndroid\local-state\build-history.bin, useModuleDetection=true), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\tmp\kotlin-classes\debug, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\kotlin\compileDebugKotlinAndroid\cacheable, C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE\composeApp\build\kotlin\compileDebugKotlinAndroid\local-state])
+./gradlew : e: file:///C:/Users/gkhna/
+AndroidStudioProjects/GLOBAL%20TRADE/c
+omposeApp/src/commonMain/kotlin/com/mg
+acreative/globaltrade/ui/home/HomeDash
+boardScreen.kt:56:134 Unresolved refer
+ence 'CircleShape'.
+At line:1 char:1
++ ./gradlew :composeApp:compileDebugKo
+tlinAndroid --info 2>&1 | Select- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpec 
+   ified: (e: file:///C:/U... 'Circl  
+  eShape'.:String) [], RemoteExcept   
+ ion
+    + FullyQualifiedErrorId : NativeC 
+   ommandError
+ 
+Finished executing kotlin compiler using DAEMON strategy
+
+FAILURE: Build failed with an exceptio
+n.
+
+* What went wrong:
+Execution failed for task ':composeApp
+:compileDebugKotlinAndroid'.
+> A failure occurred while executing o
+rg.jetbrains.kotlin.compilerRunner.Gra
+dleCompilerRunnerWithWorkers$GradleKot
+linCompilerWorkAction
+Build 43bc9f93-28a1-4d9d-b3af-bedefd629c58 is closed
+   > Compilation error. See log for mo
+re details
+
+* Try:
+> Run with --stacktrace option to get 
+the stack trace.
+> Run with --debug option to get more 
+log output.
+> Run with --scan to get full insights
+.
+> Get more help at https://help.gradle
+.org.
+
+BUILD FAILED in 2s
+24 actionable tasks: 2 executed, 22 up-to-date
+Watched directory hierarchies: [C:\Users\gkhna\AndroidStudioProjects\GLOBAL TRADE]
+Configuration cache entry reused.

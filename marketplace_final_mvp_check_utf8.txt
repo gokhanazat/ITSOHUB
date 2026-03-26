@@ -1,0 +1,143 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon JVM discovery is an incubating feature.
+Daemon will be stopped at the end of the build 
+Type-safe project accessors is an incubating feature.
+
+> Configure project :composeApp
+w: The 'org.jetbrains.kotlin.multiplatform' plugin deprecated compatibility with Android Gradle plugin: 'com.android.application'
+The 'org.jetbrains.kotlin.multiplatform' plugin will not be compatible with 'com.android.application' starting with Android Gradle Plugin 9.0.0.
+
+Please change the structure of the your project and move the usage of 'com.android.application' into a separate subproject. The new subproject should add a dependency on this KMP subproject.
+
+Read more: https://kotl.in/kmp-project-structure-migration
+Solution:
+Please change the structure of your project and move the usage of 'com.android.application' into a separate subproject.
+See https://kotl.in/gradle/agp-new-kmp for more details.
+
+
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForCommonMain UP-TO-DATE
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain UP-TO-DATE
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidDebug NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidDebug NO-SOURCE
+> Task :composeApp:preBuild UP-TO-DATE
+> Task :composeApp:preDebugBuild UP-TO-DATE
+> Task :composeApp:checkDebugAarMetadata UP-TO-DATE
+> Task :composeApp:generateDebugResValues UP-TO-DATE
+> Task :composeApp:mapDebugSourceSetPaths
+> Task :composeApp:generateDebugResources
+> Task :composeApp:copyDebugComposeResourcesToAndroidAssets
+> Task :composeApp:packageDebugResources
+> Task :composeApp:createDebugCompatibleScreenManifests
+> Task :composeApp:extractDeepLinksDebug
+> Task :composeApp:parseDebugLocalResources
+> Task :composeApp:mergeDebugResources
+> Task :composeApp:processDebugMainManifest
+> Task :composeApp:processDebugManifest
+> Task :composeApp:processDebugManifestForPackage
+> Task :composeApp:processDebugResources
+
+> Task :composeApp:compileDebugKotlinAndroid FAILED
+./gradlew : e: file:///C:/User
+s/gkhna/AndroidStudioProjects/
+ITSOHUB/composeApp/src/android
+Main/kotlin/com/mgacreative/it
+sohub/ui/marketplace/Firestore
+.android.kt:11:20 Argument typ
+e mismatch: actual type is 'St
+ring', but 'Function1<FilterBu
+ilder, Filter?>' was expected.
+At line:1 char:1
++ ./gradlew :composeApp:compil
+eDebugKotlinAndroid --no-daemo
+n --no-conf ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (e: file:/  
+  //C:/U...' was expected.:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+e: file:///C:/Users/gkhna/Andr
+oidStudioProjects/ITSOHUB/comp
+oseApp/src/androidMain/kotlin/
+com/mgacreative/itsohub/ui/mar
+ketplace/Firestore.android.kt:
+11:30 No parameter with name '
+equalTo' found.
+e: file:///C:/Users/gkhna/Andr
+oidStudioProjects/ITSOHUB/comp
+oseApp/src/androidMain/kotlin/
+com/mgacreative/itsohub/ui/mar
+ketplace/Firestore.android.kt:
+15:28 Cannot inline bytecode b
+uilt with JVM target 17 into b
+ytecode that is being built wi
+th JVM target 11. Specify prop
+er '-jvm-target' option.
+e: file:///C:/Users/gkhna/Andr
+oidStudioProjects/ITSOHUB/comp
+oseApp/src/androidMain/kotlin/
+com/mgacreative/itsohub/ui/mar
+ketplace/Firestore.android.kt:
+30:14 Cannot inline bytecode b
+uilt with JVM target 17 into b
+ytecode that is being built wi
+th JVM target 11. Specify prop
+er '-jvm-target' option.
+e: file:///C:/Users/gkhna/Andr
+oidStudioProjects/ITSOHUB/comp
+oseApp/src/androidMain/kotlin/
+com/mgacreative/itsohub/ui/mar
+ketplace/Firestore.android.kt:
+34:57 Cannot inline bytecode b
+uilt with JVM target 17 into b
+ytecode that is being built wi
+th JVM target 11. Specify prop
+er '-jvm-target' option.
+
+[Incubating] Problems report is available at: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an 
+exception.
+
+* What went wrong:
+Execution failed for task ':co
+mposeApp:compileDebugKotlinAnd
+roid'.
+> A failure occurred while exe
+cuting org.jetbrains.kotlin.co
+mpilerRunner.GradleCompilerRun
+nerWithWorkers$GradleKotlinCom
+pilerWorkAction
+   > Compilation error. See lo
+g for more details
+
+* Try:
+> Run with --stacktrace option
+ to get the stack trace.
+> Run with --info or --debug o
+ption to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at https://hel
+p.gradle.org.
+
+BUILD FAILED in 25s
+22 actionable tasks: 14 executed, 8 up-to-date

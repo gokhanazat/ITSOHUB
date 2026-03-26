@@ -1,0 +1,115 @@
+﻿
+  03-03 20:06:33.079 27480 25451 W PhBaseOp: 	at bgzh.run(:com.google.android.gms@260834029@26.08.34 (190400-87656642
+5):8)
+  03-03 20:06:33.079 27480 25451 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:1563)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29544 [
+CONTEXT service_id=51 ]
+> 03-03 20:06:33.081 27480 25451 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google
+.android.apps.search.readaloud#com.google.android.googlequicksearchbox(new configuration available), resolution=null}
+]
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at etcy.h(:com.google.android.gms@260834029@26.08.34 (190400-8765
+66425):61)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at etcy.f(:com.google.android.gms@260834029@26.08.34 (190400-8765
+66425):13)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at csex.fw(:com.google.android.gms@260834029@26.08.34 (190400-876
+566425):1)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at csfb.run(:com.google.android.gms@260834029@26.08.34 (190400-87
+6566425):118)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at grie.run(:com.google.android.gms@260834029@26.08.34 (190400-87
+6566425):19)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at bgtp.c(:com.google.android.gms@260834029@26.08.34 (190400-8765
+66425):50)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at bgtp.run(:com.google.android.gms@260834029@26.08.34 (190400-87
+6566425):73)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolEx
+ecutor.java:1154)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolE
+xecutor.java:652)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at bgzh.run(:com.google.android.gms@260834029@26.08.34 (190400-87
+6566425):8)
+  03-03 20:06:33.081 27480 25451 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1563)
+  03-03 20:06:33.088 24703 24703 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:1.0769231
+  03-03 20:06:33.120 25467 25545 I elis    : Scheduling next wakeup
+  03-03 20:06:33.120 25467 25545 I eljv    : Scheduling next periodic WorkManager workers
+  03-03 20:06:33.121 24703 24703 I ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:1.0
+  03-03 20:07:42.396 25604 25604 D nativeloader: Configuring clns-6 for other apk /data/app/~~uoYPQvOTCu0IEaVZ04FcrQ=
+=/com.google.android.apps.tachyon-HgUkvdEyK1h3KvnzGnyO2w==/base.apk:/data/app/~~uoYPQvOTCu0IEaVZ04FcrQ==/com.google.a
+ndroid.apps.tachyon-HgUkvdEyK1h3KvnzGnyO2w==/split_config.arm64_v8a.apk:/data/app/~~uoYPQvOTCu0IEaVZ04FcrQ==/com.goog
+le.android.apps.tachyon-HgUkvdEyK1h3KvnzGnyO2w==/split_config.tr.apk:/data/app/~~uoYPQvOTCu0IEaVZ04FcrQ==/com.google.
+android.apps.tachyon-HgUkvdEyK1h3KvnzGnyO2w==/split_config.tvdpi.apk. target_sdk_version=36, uses_libraries=libOpenCL
+.so:libsurfaceutil.camera.samsung.so:libhumantracking_util.camera.samsung.so:libsecimaging.camera.samsung.so:libexifa
+.camera.samsung.so:libjpega.camera.samsung.so, library_path=/data/app/~~uoYPQvOTCu0IEaVZ04FcrQ==/com.google.android.a
+pps.tachyon-HgUkvdEyK1h3KvnzGnyO2w==/lib/arm64:/data/app/~~uoYPQvOTCu0IEaVZ04FcrQ==/com.google.android.apps.tachyon-H
+gUkvdEyK1h3KvnzGnyO2w==/base.apk!/lib/arm64-v8a:/data/app/~~uoYPQvOTCu0IEaVZ04FcrQ==/com.google.android.apps.tachyon-
+HgUkvdEyK1h3KvnzGny
+  03-03 20:07:42.396 25604 25604 D nativeloader: Extending system_exposed_libraries: libsurfaceutil.camera.samsung.so
+:libhumantracking_util.camera.samsung.so:libsecimaging.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.s
+amsung.so
+  03-03 20:07:42.422 25604 25604 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_teth
+ering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+> 03-03 20:07:42.428  1539  3819 D VpnManagerService: Exception: java.lang.NullPointerException: Attempt to invoke in
+terface method 'int com.samsung.android.knox.zt.networktrust.filter.IKnoxNetworkFilterService.getKnoxNwFilterHttpProx
+yPort(int, java.lang.String)' on a null object reference
+  03-03 20:07:42.428  1539  3819 D VpnManagerService: 	at com.android.server.VpnManagerService.getKnoxNwFilterHttpPro
+xyPort(VpnManagerService.java:1945)
+  03-03 20:07:42.428  1539  3819 D VpnManagerService: 	at android.net.IVpnManager$Stub.onTransact(IVpnManager.java:10
+75)
+  03-03 20:07:42.428  1539  3819 D VpnManagerService: 	at android.os.Binder.execTransactInternal(Binder.java:1375)
+  03-03 20:07:42.428  1539  3819 D VpnManagerService: 	at android.os.Binder.execTransact(Binder.java:1311)
+  03-03 20:07:42.436 25604 25604 V GraphicsEnvironment: Currently set values for:
+  03-03 20:07:42.436 25604 25604 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+  03-03 20:07:42.436 25604 25604 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+  03-03 20:07:42.437 25604 25604 V GraphicsEnvironment: ANGLE GameManagerService for com.google.android.apps.tachyon:
+ false
+  03-03 20:07:42.437 25604 25604 V GraphicsEnvironment: com.google.android.apps.tachyon is not listed in per-applicat
+ion setting
+  03-03 20:07:42.437 25604 25604 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is 
+supported.
+  03-03 20:07:42.467  1539  2986 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 33285, isSameBssidAndF
+req true
+  03-03 20:07:42.530  1539  1647 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10199; stat
+e: ENABLED
+  03-03 20:07:42.542  1539  3819 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10199; stat
+e: ENABLED
+  03-03 20:07:42.562 25604 25604 W id.apps.tachyon: Method void agoh.c(android.app.Activity) failed lock verification
+ and will run slower.
+  03-03 20:07:42.562 25604 25604 W id.apps.tachyon: Common causes for lock verification issues are non-optimized dex 
+code
+  03-03 20:08:27.257 27480 25704 I GmsCoreXrpcWrapper: (REDACTED) Returning a channel provider with trafficStatsTag=%
+d trafficStatsUid=%d
+  03-03 20:08:27.338 27480 25603 E jewk    : *~*~*~ Previous channel {0} was garbage collected without being shut dow
+n! ~*~*~*
+  03-03 20:08:27.338 27480 25603 E jewk    :     Make sure to call shutdown()/shutdownNow()
+> 03-03 20:08:27.338 27480 25603 E jewk    : java.lang.RuntimeException: ManagedChannel allocation site
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at jewj.<init>(:com.google.android.gms@260834029@26.08.34 (190400-87656
+6425):21)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at jewk.<init>(:com.google.android.gms@260834029@26.08.34 (190400-87656
+6425):10)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at jewi.a(:com.google.android.gms@260834029@26.08.34 (190400-876566425)
+:296)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at jeee.a(:com.google.android.gms@260834029@26.08.34 (190400-876566425)
+:5)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at cuyg.h(:com.google.android.gms@260834029@26.08.34 (190400-876566425)
+:150)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at hdrf.a(:com.google.android.gms@260834029@26.08.34 (190400-876566425)
+:142)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at grhz.a(:com.google.android.gms@260834029@26.08.34 (190400-876566425)
+:13)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at hafl.a(:com.google.android.gms@260834029@26.08.34 (190400-876566425)
+:3)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at haem.run(:com.google.android.gms@260834029@26.08.34 (190400-87656642
+5):19)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at hafn.run(:com.google.android.gms@260834029@26.08.34 (190400-87656642
+5):5)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at bgtp.c(:com.google.android.gms@260834029@26.08.34 (190400-876566425)
+:50)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at bgtp.run(:com.google.android.gms@260834029@26.08.34 (190400-87656642
+5):73)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor
+.java:1154)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecuto
+r.java:652)
+  03-03 20:08:27.338 27480 25603 E jewk    : 	at bgzh.run(:com.google.android.gms@260834029@26.08.34 (190400-87656642
+5):8)
+
+

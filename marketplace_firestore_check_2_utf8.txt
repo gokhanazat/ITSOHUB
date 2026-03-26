@@ -1,0 +1,245 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon JVM discovery is an incubating feature.
+Daemon will be stopped at the end of the build 
+Type-safe project accessors is an incubating feature.
+
+> Configure project :composeApp
+w: The 'org.jetbrains.kotlin.multiplatform' plugin deprecated compatibility with Android Gradle plugin: 'com.android.application'
+The 'org.jetbrains.kotlin.multiplatform' plugin will not be compatible with 'com.android.application' starting with Android Gradle Plugin 9.0.0.
+
+Please change the structure of the your project and move the usage of 'com.android.application' into a separate subproject. The new subproject should add a dependency on this KMP subproject.
+
+Read more: https://kotl.in/kmp-project-structure-migration
+Solution:
+Please change the structure of your project and move the usage of 'com.android.application' into a separate subproject.
+See https://kotl.in/gradle/agp-new-kmp for more details.
+
+
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+./gradlew : e: KMP Dependencie
+s Resolution Failure
+At line:1 char:1
++ ./gradlew :composeApp:compil
+eDebugKotlinAndroid --no-daemo
+n --no-conf ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (e: KMP De  
+  pendencies Resolution Fai   
+ lure:String) [], RemoteEx    
+ception
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+Source set 'commonMain' couldn
+'t resolve dependencies for al
+l target platforms
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-firestore'
+ in 'commonMain' for all targe
+t platforms.
+The dependency should target p
+latforms: [android, android, i
+osArm64, iosSimulatorArm64, js
+, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-common' in
+ 'commonMain' for all target p
+latforms.
+The dependency should target p
+latforms: [android, android, i
+osArm64, iosSimulatorArm64, js
+, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Run the build with '--info' fo
+r more details.
+Solution:
+Make sure you are using a depe
+ndency that targets all requir
+ed platforms or move your depe
+ndency and relevant code to a 
+more applicable source set: ht
+tps://kotl.in/57b2-source-set-
+dependencies
+
+e: KMP Dependencies Resolution
+ Failure
+Source set 'webMain' couldn't 
+resolve dependencies for all t
+arget platforms
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-firestore'
+ in 'webMain' for all target p
+latforms.
+The dependency should target p
+latforms: [js, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-common' in
+ 'webMain' for all target plat
+forms.
+The dependency should target p
+latforms: [js, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Run the build with '--info' fo
+r more details.
+Solution:
+Make sure you are using a depe
+ndency that targets all requir
+ed platforms or move your depe
+ndency and relevant code to a 
+more applicable source set: ht
+tps://kotl.in/57b2-source-set-
+dependencies
+
+
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors
+e: KMP Dependencies Resolution
+ Failure
+Source set 'commonMain' couldn
+'t resolve dependencies for al
+l target platforms
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-firestore'
+ in 'commonMain' for all targe
+t platforms.
+The dependency should target p
+latforms: [android, android, i
+osArm64, iosSimulatorArm64, js
+, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-common' in
+ 'commonMain' for all target p
+latforms.
+The dependency should target p
+latforms: [android, android, i
+osArm64, iosSimulatorArm64, js
+, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Run the build with '--info' fo
+r more details.
+Solution:
+Make sure you are using a depe
+ndency that targets all requir
+ed platforms or move your depe
+ndency and relevant code to a 
+more applicable source set: ht
+tps://kotl.in/57b2-source-set-
+dependencies
+
+e: KMP Dependencies Resolution
+ Failure
+Source set 'webMain' couldn't 
+resolve dependencies for all t
+arget platforms
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-firestore'
+ in 'webMain' for all target p
+latforms.
+The dependency should target p
+latforms: [js, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Couldn't resolve dependency 'd
+ev.gitlive:firebase-common' in
+ 'webMain' for all target plat
+forms.
+The dependency should target p
+latforms: [js, wasmJs]
+Unresolved platforms: [wasmJs]
+
+
+Run the build with '--info' fo
+r more details.
+Solution:
+Make sure you are using a depe
+ndency that targets all requir
+ed platforms or move your depe
+ndency and relevant code to a 
+more applicable source set: ht
+tps://kotl.in/57b2-source-set-
+dependencies
+
+
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain
+> Task :composeApp:generateResourceAccessorsForCommonMain
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain
+> Task :composeApp:generateComposeResClass
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain
+> Task :composeApp:convertXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidDebug NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidDebug NO-SOURCE
+> Task :composeApp:preBuild UP-TO-DATE
+> Task :composeApp:preDebugBuild UP-TO-DATE
+> Task :composeApp:checkDebugAarMetadata
+> Task :composeApp:generateDebugResValues
+> Task :composeApp:processDebugGoogleServices FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an 
+exception.
+
+* What went wrong:
+Execution failed for task ':co
+mposeApp:processDebugGoogleSer
+vices'.
+> File google-services.json is
+ missing. 
+  The Google Services Plugin c
+annot function without it. 
+  Searched locations: C:\Users
+\gkhna\AndroidStudioProjects\I
+TSOHUB\composeApp\src\debug\go
+ogle-services.json, C:\Users\g
+khna\AndroidStudioProjects\ITS
+OHUB\composeApp\src\debug\goog
+le-services.json, C:\Users\gkh
+na\AndroidStudioProjects\ITSOH
+UB\composeApp\src\google-servi
+ces.json, C:\Users\gkhna\Andro
+idStudioProjects\ITSOHUB\compo
+seApp\src\debug\google-service
+s.json, C:\Users\gkhna\Android
+StudioProjects\ITSOHUB\compose
+App\src\Debug\google-services.
+json, C:\Users\gkhna\AndroidSt
+udioProjects\ITSOHUB\composeAp
+p\google-services.json
+
+* Try:
+> Run with --stacktrace option
+ to get the stack trace.
+> Run with --info or --debug o
+ption to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at https://hel
+p.gradle.org.
+
+BUILD FAILED in 11s
+11 actionable tasks: 11 executed

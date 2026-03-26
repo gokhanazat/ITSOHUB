@@ -1,0 +1,148 @@
+<resources>
+    <!-- App & Navigation -->
+    <string name="app_name">ITSO GLOBAL</string>
+    <string name="nav_home">الصفحة الرئيسية</string>
+    <string name="nav_showroom">صالة العرض الرقمية</string>
+    <string name="nav_b2b">مطابقة B2B</string>
+    <string name="nav_appointments">استشارات</string>
+    <string name="nav_marketplace">المتجر</string>
+    <string name="nav_education">التعليم</string>
+    <string name="nav_profile">الملف الشخصي</string>
+    <string name="nav_certificates">شهاداتي</string>
+    <string name="nav_product_detail">تفاصيل المنتج</string>
+    <string name="nav_education_detail">تفاصيل التعليم</string>
+    <string name="nav_appointment_detail">تفاصيل الموعد</string>
+    <string name="nav_company_profile">ملف الشركة</string>
+    <string name="nav_marketplace_connect">ربط المتجر</string>
+
+    <!-- Home Dashboard -->
+    <string name="global_trade_platform">منصة التجارة العالمية</string>
+    <string name="platform_modules">أقسام المنصة</string>
+    <string name="welcome_message">مرحباً، %s</string>
+    <string name="export_management_dashboard">لوحة إدارة التصدير</string>
+    <string name="active_products">المنتجات النشطة</string>
+    <string name="new_matches">مطابقات جديدة</string>
+    <string name="meetings">الاجتماعات</string>
+    <string name="integrations">التكاملات</string>
+    <string name="open_button">فتح</string>
+    <string name="showroom_desc">إدارة وعرض منتجات التصدير للمشترين العالميين</string>
+    <string name="b2b_center_desc">عرض وإدارة مطابقات الأعمال العالمية المدعومة بالذكاء الاصطناعي</string>
+    <string name="appointments_desc">إدارة اجتماعات الاستشارة ومفاوضات التصدير</string>
+    <string name="marketplace_desc">إدارة ومزامنة اتصالات المتاجر الخارجية</string>
+
+    <!-- Showroom -->
+    <string name="search_placeholder">البحث عن منتجات أو شركات...</string>
+    <string name="filter">تصفية</string>
+
+    <!-- B2B Match -->
+    <string name="top_recommendations">أهم التوصيات</string>
+    <string name="overall_match_score">نقاط المطابقة العامة</string>
+    <string name="new_label">جديد</string>
+    <string name="pending_label">قيد الانتظار</string>
+    <string name="country_label">البلد</string>
+    <string name="sector_label">القطاع</string>
+    <string name="match_score_label">درجة المطابقة</string>
+    <string name="export_capacity">سعة التصدير: %s</string>
+    <string name="match_badge">مطابقة</string>
+    <string name="view_profile">عرض الملف الشخصي</string>
+    <string name="schedule_meeting">تحديد موعد</string>
+
+    <!-- Marketplace -->
+    <string name="marketplace_title">تكامل المتجر</string>
+    <string name="marketplace_subtitle">إدارة اتصالات المنصات الخارجية</string>
+    <string name="active_integrations">التكاملات النشطة</string>
+    <string name="sync_status_connected">متصل حالياً وجاري المزامنة</string>
+    <string name="available_platforms">المنصات المتاحة</string>
+    <string name="sync_success">✓ تم مزامنة منتجات %s بنجاح!</string>
+    <string name="active">نشط</string>
+    <string name="inactive">غير نشط</string>
+    <string name="last_sync">آخر مزامنة</string>
+    <string name="no_sync_yet">لا توجد مزامنة بعد</string>
+    <string name="connect">اتصال</string>
+    <string name="syncing">جاري المزامنة…</string>
+    <string name="sync_now">مزامنة الآن</string>
+    <string name="disconnect_title">هل تريد قطع اتصال %s؟</string>
+    <string name="disconnect_desc">سيتم مسح مفتاح API وتتوقف المزامنة. يمكنك إعادة الاتصال في أي وقت.</string>
+    <string name="disconnect_confirm">قطع الاتصال</string>
+    <string name="cancel">إلغاء</string>
+    <string name="disconnected_msg">تم قطع اتصال %s.</string>
+
+    <!-- Marketplace Connect -->
+    <string name="connect_platform">ربط المنصة</string>
+    <string name="official_integration">تكامل البائع الرسمي</string>
+    <string name="api_config">تكوين API</string>
+    <string name="api_config_desc">قم بربط حساب التاجر الخاص بك في %s من خلال تقديم بيانات اعتماد API أدناه.</string>
+    <string name="api_key_label">مفتاح API / رمز الوصول</string>
+    <string name="api_key_placeholder">ألحق المفتاح هنا…</string>
+    <string name="hide">إخفاء</string>
+    <string name="show">إظهار</string>
+    <string name="security_note">🔒 مفتاح API الخاص بك مشفر ومخزن بشكل آمن. لا يتم مشاركته أو نقله إلى أطراف ثالثة.</string>
+    <string name="connect_success">✓ تم توصيل %s بنجاح!</string>
+    <string name="connect_failed">فشل الاتصال. يرجى التحقق من مفتاح API الخاص بك.</string>
+    <string name="saving">جاري الحفظ…</string>
+    <string name="save_connect">حفظ واتصال</string>
+    <string name="cancel_return">إلغاء والعودة</string>
+
+    <!-- Profile -->
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="account_settings">إعدادات الحساب</string>
+    <string name="company_info">معلومات الشركة</string>
+    <string name="notification_prefs">تفضيلات الإشعارات</string>
+    <string name="security_password">الأمان وكلمة المرور</string>
+    <string name="support">الدعم</string>
+    <string name="help_center">مركز المساعدة</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="verified_account">حساب موثق</string>
+
+    <!-- Appointments -->
+    <string name="scheduled_meetings">الاجتماعات المجدولة</string>
+    <string name="day_label">يوم</string>
+
+    <!-- Generic -->
+    <string name="back">العودة</string>
+    <string name="product_image">صورة المنتج</string>
+    <string name="premium_badge">مميز</string>
+    <string name="view_details">عرض التفاصيل</string>
+    
+    <!-- Settings -->
+    <string name="language_settings">إعدادات اللغة</string>
+    <string name="language_updated_success">تم تحديث اللغة بنجاح</string>
+    <string name="welcome">مرحباً</string>
+    <string name="search_hint">البحث عن منتجات أو مستشارين...</string>
+    <string name="platform_announcements">إعلانات المنصة</string>
+    <string name="no_active_announcements">لا توجد إعلانات نشطة حالياً.</string>
+    
+    <string name="action_send_b2b_request">إرسال طلب B2B</string>
+    <string name="action_view_company_profile">عرض ملف الشركة</string>
+    <string name="no_certificates_yet">ليس لديك أي شهادات بعد.</string>
+    <string name="action_open_pdf_source">فتح مصدر PDF</string>
+    <string name="action_view_certificate">عرض الشهادة</string>
+    <string name="action_generate_certificate_pdf">إنشاء شهادة (PDF)</string>
+    <string name="status_completed">مكتمل</string>
+    <string name="b2b_match_center">مركز مطابقة B2B</string>
+    <string name="action_add_internal_note">إضافة ملاحظة داخلية</string>
+    <string name="about_education">حول التعليم</string>
+    <string name="new_label_title">جديد</string>
+    <string name="economic_news">أخبار الاقتصاد</string>
+    <string name="empty_news">فارغ</string>
+    <string name="quick_search">بحث سريع</string>
+    <string name="search_sector">القطاع</string>
+    <string name="search_company">الشركة</string>
+    <string name="marketplace_external_disclaimer">تتم المعاملات على منصات خارجية. جلوبال تريد غير مسؤولة عن هذه المعاملات.</string>
+    <string name="marketplace_price_notice">قد تختلف الأسعار وتوفر المخزون على المنصات الخارجية.</string>
+    <string name="admin_meslek_gruplari">المجموعات المهنية</string>
+    <string name="admin_meslek_gruplari_desc">إدارة قائمة اختيار القطاعات والمجموعات المهنية.</string>
+    <string name="footer_title">معلومات المؤسسة</string>
+    <string name="footer_info">© 2024 منصة جلوبال تريد. جميع الحقوق محفوظة.\nتم التطوير بواسطة MGA Creative Works.\nاتصال: info@globaltrade.com</string>
+    <string name="nav_b2b_desc">قم بتوسيع شبكتك العالمية وجد شركاء عمل جدد</string>
+    <string name="economic_news_desc">آخر أخبار الاقتصاد والتجارة العالمية</string>
+    <string name="product_description_label">وصف المنتج</string>
+    <string name="no_description">لا يوجد وصف متاح.</string>
+    <string name="close_button">إغلاق</string>
+    <string name="login_text">تسجيل الدخول</string>
+    <string name="admin_panel_title">لوحة الإدارة (إدارة السجلات)</string>
+    <string name="admin_panel_desc">إدارة أذونات الدخول إلى النظام، استيراد الأعضاء من Excel.</string>
+    <string name="nav_education_desc">إدارة الدورات التدريبية والشهادات الخاصة بك على المنصة.</string>
+    <string name="welcome_member">عضو</string>
+</resources>

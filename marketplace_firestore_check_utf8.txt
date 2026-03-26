@@ -1,0 +1,353 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon JVM discovery is an incubating feature.
+Daemon will be stopped at the end of the build 
+Type-safe project accessors is an incubating feature.
+
+> Configure project :composeApp
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/build.gradle.kts:14:5: 'androidTarget(Action<KotlinAndroidTarget>): KotlinAndroidTarget' is deprecated. The 'org.jetbrains.kotlin.multiplatform' plugin will not be compatible with most of the Android Gradle plugins since Android Gradle Plugin version 9.0.0.
+
+Please use the 'com.android.kotlin.multiplatform.library' plugin instead. Read more: https://kotl.in/gradle/agp-new-kmp
+
+The change may require changing the structure of the your project. Read more: https://kotl.in/kmp-project-structure-migration
+./gradlew : e: file:///C:/User
+s/gkhna/AndroidStudioProjects/
+ITSOHUB/composeApp/build.gradl
+e.kts:56:49: Unresolved refere
+nce. None of the following can
+didates is applicable because 
+of receiver type mismatch: 
+At line:1 char:1
++ ./gradlew :composeApp:compil
+eDebugKotlinAndroid --no-daemo
+n --no-conf ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (e: file:/  
+  //C:/U...type mismatch: :   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+public inline operator fun Big
+Decimal.minus(other: BigDecima
+l): BigDecimal defined in kotl
+in
+public inline operator fun Big
+Integer.minus(other: BigIntege
+r): BigInteger defined in kotl
+in
+public operator fun <T> Iterab
+le<TypeVariable(T)>.minus(elem
+ent: TypeVariable(T)): List<Ty
+peVariable(T)> defined in kotl
+in.collections
+public operator fun <T> Iterab
+le<TypeVariable(T)>.minus(elem
+ents: Array<out TypeVariable(T
+)>): List<TypeVariable(T)> def
+ined in kotlin.collections
+public operator fun <T> Iterab
+le<TypeVariable(T)>.minus(elem
+ents: Iterable<TypeVariable(T)
+>): List<TypeVariable(T)> defi
+ned in kotlin.collections
+public operator fun <T> Iterab
+le<TypeVariable(T)>.minus(elem
+ents: Sequence<TypeVariable(T)
+>): List<TypeVariable(T)> defi
+ned in kotlin.collections
+public operator fun <K, V> Map
+<out TypeVariable(K), TypeVari
+able(V)>.minus(key: TypeVariab
+le(K)): Map<TypeVariable(K), T
+ypeVariable(V)> defined in kot
+lin.collections
+public operator fun <K, V> Map
+<out TypeVariable(K), TypeVari
+able(V)>.minus(keys: Array<out
+ TypeVariable(K)>): Map<TypeVa
+riable(K), TypeVariable(V)> de
+fined in kotlin.collections
+public operator fun <K, V> Map
+<out TypeVariable(K), TypeVari
+able(V)>.minus(keys: Iterable<
+TypeVariable(K)>): Map<TypeVar
+iable(K), TypeVariable(V)> def
+ined in kotlin.collections
+public operator fun <K, V> Map
+<out TypeVariable(K), TypeVari
+able(V)>.minus(keys: Sequence<
+TypeVariable(K)>): Map<TypeVar
+iable(K), TypeVariable(V)> def
+ined in kotlin.collections
+public operator fun <T> Set<Ty
+peVariable(T)>.minus(element: 
+TypeVariable(T)): Set<TypeVari
+able(T)> defined in kotlin.col
+lections
+public operator fun <T> Set<Ty
+peVariable(T)>.minus(elements:
+ Array<out TypeVariable(T)>): 
+Set<TypeVariable(T)> defined i
+n kotlin.collections
+public operator fun <T> Set<Ty
+peVariable(T)>.minus(elements:
+ Iterable<TypeVariable(T)>): S
+et<TypeVariable(T)> defined in
+ kotlin.collections
+public operator fun <T> Set<Ty
+peVariable(T)>.minus(elements:
+ Sequence<TypeVariable(T)>): S
+et<TypeVariable(T)> defined in
+ kotlin.collections
+public operator fun <T> Sequen
+ce<TypeVariable(T)>.minus(elem
+ent: TypeVariable(T)): Sequenc
+e<TypeVariable(T)> defined in 
+kotlin.sequences
+public operator fun <T> Sequen
+ce<TypeVariable(T)>.minus(elem
+ents: Array<out TypeVariable(T
+)>): Sequence<TypeVariable(T)>
+ defined in kotlin.sequences
+public operator fun <T> Sequen
+ce<TypeVariable(T)>.minus(elem
+ents: Iterable<TypeVariable(T)
+>): Sequence<TypeVariable(T)> 
+defined in kotlin.sequences
+public operator fun <T> Sequen
+ce<TypeVariable(T)>.minus(elem
+ents: Sequence<TypeVariable(T)
+>): Sequence<TypeVariable(T)> 
+defined in kotlin.sequences
+e: file:///C:/Users/gkhna/Andr
+oidStudioProjects/ITSOHUB/comp
+oseApp/build.gradle.kts:56:50:
+ Unresolved reference: icons
+e: file:///C:/Users/gkhna/Andr
+oidStudioProjects/ITSOHUB/comp
+oseApp/build.gradle.kts:56:56:
+ Unresolved reference: extende
+d
+w: Missing `androidTarget()` in Kotlin Multiplatform Project
+Missing `androidTarget()` Kotlin target in multiplatform project 'composeApp (:composeApp)'.
+The Android Gradle plugin was applied without creating a corresponding `androidTarget()` Kotlin Target
+plugins {
+    id("com.android.application")
+    kotlin("multiplatform")
+}
+
+kotlin {
+    androidTarget() // <-- please register this Android target
+}
+Solution:
+Please register the Android target.
+
+
+[Incubating] Problems report is available at: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an 
+exception.
+
+* Where:
+Build file 'C:\Users\gkhna\And
+roidStudioProjects\ITSOHUB\com
+poseApp\build.gradle.kts' line
+: 14
+
+* What went wrong:
+Script compilation errors:
+
+  Line 14:     androidTarget {
+               ^ 'androidTarge
+t(Action<KotlinAndroidTarget>)
+: KotlinAndroidTarget' is depr
+ecated. The 'org.jetbrains.kot
+lin.multiplatform' plugin will
+ not be compatible with most o
+f the Android Gradle plugins s
+ince Android Gradle Plugin ver
+sion 9.0.0.
+                 
+                   Please use 
+the 'com.android.kotlin.multip
+latform.library' plugin instea
+d. Read more: https://kotl.in/
+gradle/agp-new-kmp
+                 
+                   The change 
+may require changing the struc
+ture of the your project. Read
+ more: https://kotl.in/kmp-pro
+ject-structure-migration
+
+  Line 56:             impleme
+ntation(libs.compose.material-
+icons-extended)
+                              
+                             ^
+ Unresolved reference. None of
+ the following candidates is a
+pplicable because of receiver 
+type mismatch: 
+                              
+                              
+   public inline operator fun 
+BigDecimal.minus(other: BigDec
+imal): BigDecimal defined in k
+otlin
+                              
+                              
+   public inline operator fun 
+BigInteger.minus(other: BigInt
+eger): BigInteger defined in k
+otlin
+                              
+                              
+   public operator fun <T> Ite
+rable<TypeVariable(T)>.minus(e
+lement: TypeVariable(T)): List
+<TypeVariable(T)> defined in k
+otlin.collections
+                              
+                              
+   public operator fun <T> Ite
+rable<TypeVariable(T)>.minus(e
+lements: Array<out TypeVariabl
+e(T)>): List<TypeVariable(T)> 
+defined in kotlin.collections
+                              
+                              
+   public operator fun <T> Ite
+rable<TypeVariable(T)>.minus(e
+lements: Iterable<TypeVariable
+(T)>): List<TypeVariable(T)> d
+efined in kotlin.collections
+                              
+                              
+   public operator fun <T> Ite
+rable<TypeVariable(T)>.minus(e
+lements: Sequence<TypeVariable
+(T)>): List<TypeVariable(T)> d
+efined in kotlin.collections
+                              
+                              
+   public operator fun <K, V> 
+Map<out TypeVariable(K), TypeV
+ariable(V)>.minus(key: TypeVar
+iable(K)): Map<TypeVariable(K)
+, TypeVariable(V)> defined in 
+kotlin.collections
+                              
+                              
+   public operator fun <K, V> 
+Map<out TypeVariable(K), TypeV
+ariable(V)>.minus(keys: Array<
+out TypeVariable(K)>): Map<Typ
+eVariable(K), TypeVariable(V)>
+ defined in kotlin.collections
+                              
+                              
+   public operator fun <K, V> 
+Map<out TypeVariable(K), TypeV
+ariable(V)>.minus(keys: Iterab
+le<TypeVariable(K)>): Map<Type
+Variable(K), TypeVariable(V)> 
+defined in kotlin.collections
+                              
+                              
+   public operator fun <K, V> 
+Map<out TypeVariable(K), TypeV
+ariable(V)>.minus(keys: Sequen
+ce<TypeVariable(K)>): Map<Type
+Variable(K), TypeVariable(V)> 
+defined in kotlin.collections
+                              
+                              
+   public operator fun <T> Set
+<TypeVariable(T)>.minus(elemen
+t: TypeVariable(T)): Set<TypeV
+ariable(T)> defined in kotlin.
+collections
+                              
+                              
+   public operator fun <T> Set
+<TypeVariable(T)>.minus(elemen
+ts: Array<out TypeVariable(T)>
+): Set<TypeVariable(T)> define
+d in kotlin.collections
+                              
+                              
+   public operator fun <T> Set
+<TypeVariable(T)>.minus(elemen
+ts: Iterable<TypeVariable(T)>)
+: Set<TypeVariable(T)> defined
+ in kotlin.collections
+                              
+                              
+   public operator fun <T> Set
+<TypeVariable(T)>.minus(elemen
+ts: Sequence<TypeVariable(T)>)
+: Set<TypeVariable(T)> defined
+ in kotlin.collections
+                              
+                              
+   public operator fun <T> Seq
+uence<TypeVariable(T)>.minus(e
+lement: TypeVariable(T)): Sequ
+ence<TypeVariable(T)> defined 
+in kotlin.sequences
+                              
+                              
+   public operator fun <T> Seq
+uence<TypeVariable(T)>.minus(e
+lements: Array<out TypeVariabl
+e(T)>): Sequence<TypeVariable(
+T)> defined in kotlin.sequence
+s
+                              
+                              
+   public operator fun <T> Seq
+uence<TypeVariable(T)>.minus(e
+lements: Iterable<TypeVariable
+(T)>): Sequence<TypeVariable(T
+)> defined in kotlin.sequences
+                              
+                              
+   public operator fun <T> Seq
+uence<TypeVariable(T)>.minus(e
+lements: Sequence<TypeVariable
+(T)>): Sequence<TypeVariable(T
+)> defined in kotlin.sequences
+
+  Line 56:             impleme
+ntation(libs.compose.material-
+icons-extended)
+                              
+                              
+^ Unresolved reference: icons
+
+  Line 56:             impleme
+ntation(libs.compose.material-
+icons-extended)
+                              
+                              
+      ^ Unresolved reference: 
+extended
+
+4 errors
+
+* Try:
+> Run with --stacktrace option
+ to get the stack trace.
+> Run with --info or --debug o
+ption to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at https://hel
+p.gradle.org.
+
+BUILD FAILED in 10s

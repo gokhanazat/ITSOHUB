@@ -1,0 +1,114 @@
+Reusing configuration cache.
+> Task :composeApp:preBuild UP-TO-DATE
+> Task :composeApp:preDebugBuild UP-TO-DATE
+> Task :composeApp:debugAssetsCopyForAGP NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :composeApp:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :composeApp:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :composeApp:processDebugGoogleServices UP-TO-DATE
+> Task :composeApp:generateDebugResValues UP-TO-DATE
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:javaPreCompileDebug UP-TO-DATE
+> Task :composeApp:validateSigningDebug UP-TO-DATE
+> Task :composeApp:desugarDebugFileDependencies UP-TO-DATE
+> Task :composeApp:mergeDebugShaders UP-TO-DATE
+> Task :composeApp:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :composeApp:writeDebugAppMetadata UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :composeApp:mergeDebugJniLibFolders UP-TO-DATE
+> Task :composeApp:compileDebugShaders NO-SOURCE
+> Task :composeApp:generateDebugAssets UP-TO-DATE
+> Task :composeApp:generateDebugResources UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :composeApp:extractDeepLinksDebug UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidDebug NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :composeApp:checkDebugAarMetadata UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForAndroidDebug NO-SOURCE
+> Task :composeApp:mapDebugSourceSetPaths UP-TO-DATE
+> Task :composeApp:mergeDebugResources UP-TO-DATE
+> Task :composeApp:checkDebugDuplicateClasses UP-TO-DATE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :composeApp:mergeLibDexDebug UP-TO-DATE
+> Task :composeApp:mergeDebugNativeLibs UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :composeApp:stripDebugDebugSymbols UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForCommonMain UP-TO-DATE
+> Task :composeApp:processDebugMainManifest UP-TO-DATE
+> Task :composeApp:copyDebugComposeResourcesToAndroidAssets UP-TO-DATE
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain UP-TO-DATE
+> Task :composeApp:processDebugManifest UP-TO-DATE
+> Task :composeApp:packageDebugResources UP-TO-DATE
+> Task :composeApp:processDebugManifestForPackage UP-TO-DATE
+> Task :composeApp:mergeDebugAssets UP-TO-DATE
+> Task :composeApp:mergeExtDexDebug UP-TO-DATE
+> Task :composeApp:parseDebugLocalResources UP-TO-DATE
+> Task :composeApp:compressDebugAssets UP-TO-DATE
+> Task :composeApp:processDebugResources UP-TO-DATE
+
+> Task :composeApp:compileDebugKotlinAndroid
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/androidMain/kotlin/com/mgacreative/globaltrade/MainActivity.kt:63:52 'constructor(p0: String!, p1: String!): Locale' is deprecated. Deprecated in Java.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/androidMain/kotlin/com/mgacreative/globaltrade/MainActivity.kt:63:76 'constructor(p0: String!): Locale' is deprecated. Deprecated in Java.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/androidMain/kotlin/com/mgacreative/globaltrade/manager/NotificationPreferenceManager.kt:18:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/androidMain/kotlin/com/mgacreative/globaltrade/ui/education/CertificateManager.android.kt:91:19 Right operand of elvis operator (?:) is useless if it is null.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/core/domain/auth/RegistryService.kt:55:54 'suspend fun update(vararg fieldsAndValues: Pair<String, Any?>): Unit' is deprecated. Deprecated. Use `updateFields` instead.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/core/domain/education/CertificateGenerationService.kt:69:16 'suspend fun update(vararg fieldsAndValues: Pair<String, Any?>): Unit' is deprecated. Deprecated. Use `updateFields` instead.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/core/domain/education/CertificateVerificationEngine.kt:58:47 'fun Query.where(field: String, equalTo: Any?): Query' is deprecated. Deprecated in favor of using a [FilterBuilder].
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/core/domain/education/CertificateVerificationEngine.kt:59:49 'fun Query.where(field: String, equalTo: Any?): Query' is deprecated. Deprecated in favor of using a [FilterBuilder].
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/manager/NotificationPreferenceManager.kt:8:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/admin/AdminCertificateManagementScreen.kt:77:76 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/admin/AdminCertificateManagementScreen.kt:154:38 'suspend fun update(vararg fieldsAndValues: Pair<String, Any?>): Unit' is deprecated. Deprecated. Use `updateFields` instead.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/admin/AuditLogScreen.kt:122:76 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/admin/UserManagementScreen.kt:65:76 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/admin/UserManagementScreen.kt:104:83 'suspend fun update(vararg fieldsAndValues: Pair<String, Any?>): Unit' is deprecated. Deprecated. Use `updateFields` instead.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/admin/UserManagementScreen.kt:206:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/b2b/CompanyProfileScreen.kt:232:9 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/components/MarketplaceProductCard.kt:59:53 'val Icons.Filled.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.OpenInNew.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/components/MarketplaceProductCard.kt:118:53 'val Icons.Filled.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.OpenInNew.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/components/MatchCard.kt:92:51 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/components/ProductCard.kt:135:45 'val outlinedButtonBorder: BorderStroke' is deprecated. Please use the version that takes an `enabled` param to get the `BorderStroke` with the correct opacity.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationDetailScreen.kt:56:18 'fun Query.where(field: String, equalTo: Any?): Query' is deprecated. Deprecated in favor of using a [FilterBuilder].
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationDetailScreen.kt:57:18 'fun Query.where(field: String, equalTo: Any?): Query' is deprecated. Deprecated in favor of using a [FilterBuilder].
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationDetailScreen.kt:89:93 'suspend fun update(vararg fieldsAndValues: Pair<String, Any?>): Unit' is deprecated. Deprecated. Use `updateFields` instead.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationDetailScreen.kt:116:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationDetailScreen.kt:161:25 'fun LinearProgressIndicator(progress: Float, modifier: Modifier = ..., color: Color = ..., trackColor: Color = ..., strokeCap: StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationScreen.kt:44:18 'fun Query.where(field: String, equalTo: Any?): Query' is deprecated. Deprecated in favor of using a [FilterBuilder].
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationScreen.kt:55:18 'fun Query.where(field: String, equalTo: Any?): Query' is deprecated. Deprecated in favor of using a [FilterBuilder].
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/EducationScreen.kt:195:17 'fun LinearProgressIndicator(progress: Float, modifier: Modifier = ..., color: Color = ..., trackColor: Color = ..., strokeCap: StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/MyCertificatesScreen.kt:48:22 'fun Query.where(field: String, equalTo: Any?): Query' is deprecated. Deprecated in favor of using a [FilterBuilder].
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/MyCertificatesScreen.kt:72:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/education/MyCertificatesScreen.kt:185:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/home/HomeDashboardScreen.kt:43:57 'val Icons.Filled.Logout: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Logout.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/home/HomeDashboardScreen.kt:147:65 'val Icons.Filled.TrendingUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.TrendingUp.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/navigation/Screen.kt:17:75 'val Icons.Filled.Login: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Login.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/public/VerifyCertificateScreen.kt:58:76 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/public/VerifyCertificateScreen.kt:60:44 'fun centerAlignedTopAppBarColors(containerColor: Color = ..., scrolledContainerColor: Color = ..., navigationIconContentColor: Color = ..., titleContentColor: Color = ..., actionIconContentColor: Color = ...): TopAppBarColors' is deprecated. Use topAppBarColors instead.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/public/VerifyCertificateScreen.kt:162:67 'val Icons.Filled.Help: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Help.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/public/VerifyCertificateScreen.kt:184:17 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/screens/ProfileScreen.kt:69:25 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/screens/ProfileScreen.kt:71:25 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/screens/ProfileScreen.kt:73:25 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/screens/ProfileScreen.kt:97:97 'val Icons.Filled.Help: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Help.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/screens/ProfileScreen.kt:98:25 'fun Divider(modifier: Modifier = ..., thickness: Dp = ..., color: Color = ...): Unit' is deprecated. Renamed to HorizontalDivider.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/screens/ProfileScreen.kt:116:40 'val Icons.Filled.Logout: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Logout.
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/globaltrade/ui/settings/LanguageSettingsScreen.kt:68:44 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+
+> Task :composeApp:compileDebugJavaWithJavac NO-SOURCE
+> Task :composeApp:processDebugJavaRes
+> Task :composeApp:mergeDebugJavaResource
+> Task :composeApp:dexBuilderDebug
+> Task :composeApp:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :composeApp:mergeProjectDexDebug
+> Task :composeApp:packageDebug
+> Task :composeApp:assembleDebug
+> Task :composeApp:createDebugApkListingFileRedirect UP-TO-DATE
+
+BUILD SUCCESSFUL in 26s
+45 actionable tasks: 7 executed, 38 up-to-date
+Configuration cache entry reused.

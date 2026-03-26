@@ -1,0 +1,128 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Yardımcı Fonksiyonlar
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    // Role tabanlı kontroller (Server-side enforcement)
+    function isSuperAdmin() {
+      return isAuthenticated() && getUserData().role == 'SUPER_ADMIN';
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && (getUserData().role == 'ADMIN' || getUserData().role == 'SUPER_ADMIN');
+    }
+    
+    function isModerator() {
+      return isAuthenticated() && (getUserData().role == 'MODERATOR' || isAdmin());
+    }
+
+    function isCompanyUser() {
+      return isAuthenticated() && getUserData().role == 'COMPANY';
+    }
+
+    // Kullanıcı Kuralları
+    match /users/{userId} {
+      // Herkes kendi dökümanını okuyabilir, adminler herkesinkini okuyabilir.
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      
+      // Güncelleme Kuralları (Security-First)
+      allow update: if isAuthenticated() && (
+        // 1) Sadece SUPER_ADMIN rol atayabilir.
+        (request.resource.data.role != resource.data.role ? isSuperAdmin() : false) ||
+        
+        // 2) ADMIN rolü; isim, ünvan gibi alanları güncelleyebilir ama ROLÜ değiştiremez.
+        (isAdmin() && request.resource.data.role == resource.data.role) ||
+        
+        // 3) Admin birini SUPER_ADMIN'e yükseltemez (isSuperAdmin kontrolü zaten bunu kapsar)
+        
+        // 4) Kullanıcı sadece kendi temel bilgilerini güncelleyebilir (Rol ve Onay hariç)
+        (request.auth.uid == userId && 
+         request.resource.data.role == resource.data.role && 
+         request.resource.data.isApproved == resource.data.isApproved)
+      );
+
+      // Kayıt sırasında varsayılan kısıtlamalar
+      allow create: if isAuthenticated() && request.auth.uid == userId && 
+                   request.resource.data.role == 'GUEST' && 
+                   request.resource.data.isApproved == false;
+    }
+
+    // Firma Kuralları
+    match /firms/{firmId} {
+      allow read, write: if isAdmin() || (isAuthenticated() && getUserData().firmId == firmId);
+    }
+
+    // Eğitim Kuralları
+    match /educations/{eduId} {
+      allow read: if isAuthenticated();
+      // Moderator içerik yönetebilir
+      allow write: if isModerator();
+    }
+
+    // Pazar Yeri Bağlantıları
+    match /marketplace_connections/{connId} {
+      allow read: if isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // Pazar Yeri Sağlayıcıları (Providers)
+    match /marketplace_providers/{providerId} {
+      // Tüm giriş yapmış kullanıcılar okuyabilir
+      allow read: if isAuthenticated();
+      // Sadece Admin oluşturabilir veya güncelleyebilir
+      allow create, update: if isAdmin();
+      // Silme işlemi kesinlikle yasaktır
+      allow delete: if false;
+    }
+
+    // Pazar Yeri Ürünleri (Products - Normalized)
+    match /marketplace_products/{productId} {
+      // Tüm giriş yapmış kullanıcılar okuyabilir
+      allow read: if isAuthenticated();
+      // Ürünler sadece Admin/Sistem tarafından eklenebilir veya güncellenebilir
+      allow create, update: if isAdmin();
+      // İstemci üzerinden silme işlemi yapılamaz
+      allow delete: if false;
+    }
+
+    // B2B Eşleşmeleri
+    match /b2b_matches/{matchId} {
+      allow read, write: if isAdmin();
+    }
+
+    // Denetim Kayıtları (Audit Logs)
+    match /audit_logs/{logId} {
+      allow read: if isAdmin();
+      allow create: if isAuthenticated();
+      allow update, delete: if false;
+    }
+
+    // Sertifika Kuralları (Security-First)
+    match /certificates/{certId} {
+      // 2) Public doğrulama için okuma serbest (Veri gizliliği uygulama motoru seviyesinde korunur)
+      allow read: if true; 
+      
+      // 1) Sadece Admin sertifika oluşturabilir
+      allow create: if isAdmin();
+      
+      // 3) Sadece Admin durumunu değiştirebilir
+      // 5) Durum dışındaki tüm alanlar (userId, issueDate vb.) DEĞİŞMEZDİR.
+      allow update: if isAdmin() && 
+                    request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status']) &&
+                    request.resource.data.status in ['ACTIVE', 'REVOKED'];
+      
+      // 4) Sertifika silme işlemi kesinlikle yasaktır
+      allow delete: if false;
+    }
+    
+    // Varsayılan Reddetme (Deny all by default matched by lack of explicit allows)
+  }
+}

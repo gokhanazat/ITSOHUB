@@ -1,0 +1,109 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon JVM discovery is an incubating feature.
+Daemon will be stopped at the end of the build 
+Type-safe project accessors is an incubating feature.
+
+> Configure project :composeApp
+w: The 'org.jetbrains.kotlin.multiplatform' plugin deprecated compatibility with Android Gradle plugin: 'com.android.application'
+The 'org.jetbrains.kotlin.multiplatform' plugin will not be compatible with 'com.android.application' starting with Android Gradle Plugin 9.0.0.
+
+Please change the structure of the your project and move the usage of 'com.android.application' into a separate subproject. The new subproject should add a dependency on this KMP subproject.
+
+Read more: https://kotl.in/kmp-project-structure-migration
+Solution:
+Please change the structure of your project and move the usage of 'com.android.application' into a separate subproject.
+See https://kotl.in/gradle/agp-new-kmp for more details.
+
+
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForCommonMain
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain
+> Task :composeApp:generateComposeResClass
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain
+> Task :composeApp:convertXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidDebug NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidDebug NO-SOURCE
+> Task :composeApp:preBuild UP-TO-DATE
+> Task :composeApp:preDebugBuild UP-TO-DATE
+> Task :composeApp:checkDebugAarMetadata
+> Task :composeApp:generateDebugResValues FROM-CACHE
+> Task :composeApp:mapDebugSourceSetPaths
+> Task :composeApp:generateDebugResources FROM-CACHE
+> Task :composeApp:mergeDebugResources FROM-CACHE
+> Task :composeApp:copyDebugComposeResourcesToAndroidAssets
+> Task :composeApp:packageDebugResources FROM-CACHE
+> Task :composeApp:parseDebugLocalResources FROM-CACHE
+> Task :composeApp:createDebugCompatibleScreenManifests
+> Task :composeApp:extractDeepLinksDebug FROM-CACHE
+> Task :composeApp:processDebugMainManifest FROM-CACHE
+> Task :composeApp:processDebugManifest FROM-CACHE
+> Task :composeApp:processDebugManifestForPackage FROM-CACHE
+> Task :composeApp:processDebugResources FROM-CACHE
+
+> Task :composeApp:compileDebugKotlinAndroid FAILED
+./gradlew : e: file:///C:/User
+s/gkhna/AndroidStudioProjects/
+ITSOHUB/composeApp/src/commonM
+ain/kotlin/com/mgacreative/its
+ohub/App.kt:15:30 Unresolved r
+eference 'ui'.
+At line:1 char:1
++ ./gradlew :composeApp:compil
+eDebugKotlinAndroid --no-daemo
+n --no-conf ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (e: file:/  
+  //C:/U...reference 'ui'.:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+e: file:///C:/Users/gkhna/Andr
+oidStudioProjects/ITSOHUB/comp
+oseApp/src/commonMain/kotlin/c
+om/mgacreative/itsohub/App.kt:
+18:2 Unresolved reference 'Pre
+view'.
+
+[Incubating] Problems report is available at: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an 
+exception.
+
+* What went wrong:
+Execution failed for task ':co
+mposeApp:compileDebugKotlinAnd
+roid'.
+> A failure occurred while exe
+cuting org.jetbrains.kotlin.co
+mpilerRunner.GradleCompilerRun
+nerWithWorkers$GradleKotlinCom
+pilerWorkAction
+   > Compilation error. See lo
+g for more details
+
+* Try:
+> Run with --stacktrace option
+ to get the stack trace.
+> Run with --info or --debug o
+ption to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at https://hel
+p.gradle.org.
+
+BUILD FAILED in 13s
+22 actionable tasks: 11 executed, 10 from cache, 1 up-to-date

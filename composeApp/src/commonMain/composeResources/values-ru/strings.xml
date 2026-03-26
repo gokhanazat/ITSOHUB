@@ -1,0 +1,140 @@
+<resources>
+    <!-- App & Navigation -->
+    <string name="app_name">ITSO GLOBAL</string>
+    <string name="nav_home">Главная</string>
+    <string name="nav_showroom">Цифровой шоурум</string>
+    <string name="nav_b2b">B2B Матч</string>
+    <string name="nav_appointments">Консультации</string>
+    <string name="nav_marketplace">Маркетплейс</string>
+    <string name="nav_education">Обучение</string>
+    <string name="nav_profile">Профиль</string>
+    <string name="nav_certificates">Мои сертификаты</string>
+    <string name="nav_product_detail">Детали продукта</string>
+    <string name="nav_education_detail">Детали обучения</string>
+    <string name="nav_appointment_detail">Детали встречи</string>
+    <string name="nav_company_profile">Профиль компании</string>
+    <string name="nav_marketplace_connect">Подключение маркетплейса</string>
+
+    <!-- Home Dashboard -->
+    <string name="global_trade_platform">Глобальная торговая платформа</string>
+    <string name="platform_modules">МОДУЛИ ПЛАТФОРМЫ</string>
+    <string name="welcome_message">Добро пожаловать, %s</string>
+    <string name="export_management_dashboard">Панель управления экспортом</string>
+    <string name="active_products">Активные продукты</string>
+    <string name="new_matches">Новые совпадения</string>
+    <string name="meetings">Встречи</string>
+    <string name="integrations">Интеграции</string>
+    <string name="open_button">Открыть</string>
+    <string name="showroom_desc">Управляйте и демонстрируйте экспортные товары мировым покупателям</string>
+    <string name="b2b_center_desc">Просматривайте и управляйте совпадениями бизнеса на базе ИИ</string>
+    <string name="appointments_desc">Управляйте консультационными встречами и переговорами по экспорту</string>
+    <string name="marketplace_desc">Управляйте и синхронизируйте подключения к внешним маркетплейсам</string>
+
+    <!-- Showroom -->
+    <string name="search_placeholder">Поиск товаров или компаний...</string>
+    <string name="filter">Фильтр</string>
+
+    <!-- B2B Match -->
+    <string name="top_recommendations">ТОП РЕКОМЕНДАЦИЙ</string>
+    <string name="overall_match_score">Общий балл совпадения</string>
+    <string name="new_label">Новый</string>
+    <string name="pending_label">В ожидании</string>
+    <string name="country_label">Страна</string>
+    <string name="sector_label">Сектор</string>
+    <string name="match_score_label">Балл совпадения</string>
+    <string name="export_capacity">Экспортная мощность: %s</string>
+    <string name="match_badge">МАТЧ</string>
+    <string name="view_profile">Просмотреть профиль</string>
+    <string name="schedule_meeting">Запланировать встречу</string>
+
+    <!-- Marketplace -->
+    <string name="marketplace_title">Интеграция с маркетплейсом</string>
+    <string name="marketplace_subtitle">Управление подключениями к платформам</string>
+    <string name="active_integrations">АКТИВНЫЕ ИНТЕГРАЦИИ</string>
+    <string name="sync_status_connected">Подключено и синхронизируется</string>
+    <string name="available_platforms">ДОСТУПНЫЕ ПЛАТФОРМЫ</string>
+    <string name="sync_success">✓ Товары %s успешно синхронизированы!</string>
+    <string name="active">Активно</string>
+    <string name="inactive">Неактивно</string>
+    <string name="last_sync">ПОСЛЕДНЯЯ СИНХРОНИЗАЦИЯ</string>
+    <string name="no_sync_yet">Нет синхронизации</string>
+    <string name="connect">Подключить</string>
+    <string name="syncing">Синхронизация…</string>
+    <string name="sync_now">Синхронизировать сейчас</string>
+    <string name="disconnect_title">Отключить %s?</string>
+    <string name="disconnect_desc">API ключ будет удален, синхронизация прекратится. Вы можете подключиться снова в любое время.</string>
+    <string name="disconnect_confirm">Отключить</string>
+    <string name="cancel">Отмена</string>
+    <string name="disconnected_msg">%s отключен.</string>
+
+    <!-- Marketplace Connect -->
+    <string name="connect_platform">Подключить платформу</string>
+    <string name="official_integration">ОФИЦИАЛЬНАЯ ИНТЕГРАЦИЯ ПРОДАВЦА</string>
+    <string name="api_config">Конфигурация API</string>
+    <string name="api_config_desc">Подключите свой аккаунт продавца %s, указав API ключи ниже.</string>
+    <string name="api_key_label">API ключ / Токен доступа</string>
+    <string name="api_key_placeholder">Вставьте ключ здесь…</string>
+    <string name="hide">Скрыть</string>
+    <string name="show">Показать</string>
+    <string name="security_note">🔒 Ваш API ключ зашифрован и надежно хранится в Firestore. Он никогда не передается третьим лицам.</string>
+    <string name="connect_success">✓ %s успешно подключен!</string>
+    <string name="connect_failed">Ошибка подключения. Проверьте API ключ.</string>
+    <string name="saving">Сохранение…</string>
+    <string name="save_connect">Сохранить и подключить</string>
+    <string name="cancel_return">Отмена и возврат</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Профиль</string>
+    <string name="account_settings">Настройки аккаунта</string>
+    <string name="company_info">Информация о компании</string>
+    <string name="notification_prefs">Настройки уведомлений</string>
+    <string name="security_password">Безопасность и пароль</string>
+    <string name="support">Поддержка</string>
+    <string name="help_center">Справочный центр</string>
+    <string name="contact_us">Связаться с нами</string>
+    <string name="logout">Выйти</string>
+    <string name="verified_account">Подтвержденный аккаунт</string>
+
+    <!-- Appointments -->
+    <string name="scheduled_meetings">Запланированные встречи</string>
+    <string name="day_label">День</string>
+
+    <!-- Generic -->
+    <string name="back">Назад</string>
+    <string name="product_image">Изображение товара</string>
+    <string name="premium_badge">ПРЕМИУМ</string>
+    <string name="view_details">Посмотреть детали</string>
+    
+    <!-- Settings -->
+    <string name="language_settings">Настройки языка</string>
+    <string name="language_updated_success">Язык успешно обновлен</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="search_hint">Поиск товаров или консультантов...</string>
+    <string name="platform_announcements">Объявления платформы</string>
+    <string name="no_active_announcements">В данный момент активных объявлений нет.</string>
+    
+    <string name="action_send_b2b_request">Отправить B2B запрос</string>
+    <string name="action_view_company_profile">Посмотреть профиль компании</string>
+    <string name="no_certificates_yet">У вас пока нет сертификатов.</string>
+    <string name="action_open_pdf_source">Открыть источник PDF</string>
+    <string name="action_view_certificate">Посмотреть сертификат</string>
+    <string name="action_generate_certificate_pdf">Сгенерировать сертификат (PDF)</string>
+    <string name="status_completed">Завершено</string>
+    <string name="b2b_match_center">Центр B2B совпадений</string>
+    <string name="action_add_internal_note">Добавить внутреннюю заметку</string>
+    <string name="about_education">Об образовании</string>
+    <string name="new_label_title">Новинка</string>
+    <string name="economic_news">Экономические новости</string>
+    <string name="empty_news">Пусто</string>
+    <string name="quick_search">Быстрый поиск</string>
+    <string name="search_sector">Сектор</string>
+    <string name="search_company">Компания</string>
+    <string name="footer_title">Корпоративная информация</string>
+    <string name="footer_info">© 2024 Платформа Global Trade. Все права защищены.\nРазработано MGA Creative Works.\nКонтакт: info@globaltrade.com</string>
+    <string name="nav_b2b_desc">Расширяйте свою глобальную сеть и находите новых партнеров</string>
+    <string name="economic_news_desc">Актуальные новости экономики и торговли со всего мира</string>
+    <string name="product_description_label">Описание продукта</string>
+    <string name="no_description">Описание отсутствует.</string>
+    <string name="close_button">Закрыть</string>
+    <string name="login_text">Войти</string>
+</resources>

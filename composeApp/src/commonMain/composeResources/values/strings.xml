@@ -1,0 +1,160 @@
+<resources>
+    <!-- App & Navigation -->
+    <string name="app_name">ITSO GLOBAL</string>
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_showroom">Dijital Showroom</string>
+    <string name="nav_b2b">B2B Meeting</string>
+    <string name="nav_appointments">Danışmanlık</string>
+    <string name="nav_marketplace">Pazaryeri</string>
+    <string name="nav_education">Eğitim</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_certificates">Sertifikalarım</string>
+    <string name="nav_product_detail">Ürün Detayı</string>
+    <string name="nav_education_detail">Eğitim Detayı</string>
+    <string name="nav_appointment_detail">Randevu Detayı</string>
+    <string name="nav_company_profile">Firma Profili</string>
+    <string name="nav_marketplace_connect">Pazaryeri Bağlantısı</string>
+
+    <!-- Home Dashboard -->
+    <string name="global_trade_platform">Küresel Ticaret Platformu</string>
+    <string name="platform_modules">PLATFORM MODÜLLERİ</string>
+    <string name="welcome_message">Hoş geldin, %s</string>
+    <string name="export_management_dashboard">İhracat Yönetim Paneli</string>
+    <string name="active_products">Aktif Ürünler</string>
+    <string name="new_matches">Yeni Eşleşmeler</string>
+    <string name="meetings">Toplantılar</string>
+    <string name="integrations">Entegrasyonlar</string>
+    <string name="open_button">Aç</string>
+    <string name="showroom_desc">İhracat ürünlerini yönetin ve küresel alıcılara sergileyin</string>
+    <string name="b2b_center_desc">AI destekli küresel iş eşleşmelerini görüntüleyin ve yönetin</string>
+    <string name="appointments_desc">Danışmanlık toplantılarını ve ihracat görüşmelerini yönetin</string>
+    <string name="marketplace_desc">Harici pazaryeri bağlantılarını yönetin ve senkronize edin</string>
+
+    <!-- Showroom -->
+    <string name="search_placeholder">Ürün veya firma ara...</string>
+    <string name="filter">Filtrele</string>
+
+    <!-- B2B Match -->
+    <string name="top_recommendations">EN İYİ ÖNERİLER</string>
+    <string name="overall_match_score">Genel Eşleşme Puanı</string>
+    <string name="new_label">Yeni</string>
+    <string name="pending_label">Beklemede</string>
+    <string name="country_label">Ülke</string>
+    <string name="sector_label">Sektör</string>
+    <string name="match_score_label">Eşleşme Puanı</string>
+    <string name="export_capacity">İhracat Kapasitesi: %s</string>
+    <string name="match_badge">EŞLEŞME</string>
+    <string name="view_profile">Profili Görüntüle</string>
+    <string name="schedule_meeting">Toplantı Planla</string>
+
+    <!-- Marketplace -->
+    <string name="marketplace_title">Pazaryeri Entegrasyonu</string>
+    <string name="marketplace_subtitle">Harici platform bağlantılarını yönetin</string>
+    <string name="active_integrations">AKTİF ENTEGRASYONLAR</string>
+    <string name="sync_status_connected">Şu anda bağlı ve senkronize ediliyor</string>
+    <string name="available_platforms">MEVCUT PLATFORMLAR</string>
+    <string name="sync_success">✓ %s ürünleri başarıyla senkronize edildi!</string>
+    <string name="active">Aktif</string>
+    <string name="inactive">Pasif</string>
+    <string name="last_sync">SON SENKRONİZASYON</string>
+    <string name="no_sync_yet">Henüz senkronizasyon yok</string>
+    <string name="connect">Bağlan</string>
+    <string name="syncing">Senkronize ediliyor…</string>
+    <string name="sync_now">Şimdi Senkronize Et</string>
+    <string name="disconnect_title">%s bağlantısını kes?</string>
+    <string name="disconnect_desc">API anahtarı temizlenecek ve senkronizasyon duracaktır. İstediğiniz zaman tekrar bağlanabilirsiniz.</string>
+    <string name="disconnect_confirm">Bağlantıyı Kes</string>
+    <string name="cancel">İptal</string>
+    <string name="disconnected_msg">%s bağlantısı kesildi.</string>
+
+    <!-- Marketplace Connect -->
+    <string name="connect_platform">Platformu Bağla</string>
+    <string name="official_integration">RESMİ SATICI ENTEGRASYONU</string>
+    <string name="api_config">API Yapılandırması</string>
+    <string name="api_config_desc">Aşağıdaki API kimlik bilgilerini sağlayarak %s satıcı hesabınızı bağlayın.</string>
+    <string name="api_key_label">API Anahtarı / Erişim Belirteci</string>
+    <string name="api_key_placeholder">Anahtarınızı buraya yapıştırın…</string>
+    <string name="hide">Gizle</string>
+    <string name="show">Göster</string>
+    <string name="security_note">🔒 API anahtarınız şifrelenir ve Firestore\'da güvenli bir şekilde saklanır. Asla üçüncü taraflarla paylaşılmaz veya iletilmez.</string>
+    <string name="connect_success">✓ %s başarıyla bağlandı!</string>
+    <string name="connect_failed">Bağlantı başarısız. Lütfen API anahtarınızı doğrulayın.</string>
+    <string name="saving">Kaydediliyor…</string>
+    <string name="save_connect">Kaydet ve Bağlan</string>
+    <string name="cancel_return">İptal Et ve Geri Dön</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="account_settings">Hesap Ayarları</string>
+    <string name="company_info">Şirket Bilgileri</string>
+    <string name="notification_prefs">Bildirim Tercihleri</string>
+    <string name="security_password">Güvenlik ve Şifre</string>
+    <string name="support">Destek</string>
+    <string name="help_center">Yardım Merkezi</string>
+    <string name="contact_us">Bize Ulaşın</string>
+    <string name="logout">Oturumu Kapat</string>
+    <string name="verified_account">Doğrulanmış Hesap</string>
+
+    <!-- Appointments -->
+    <string name="scheduled_meetings">Planlanmış Toplantılar</string>
+    <string name="day_label">Gün</string>
+
+    <!-- Generic -->
+    <string name="back">Geri</string>
+    <string name="product_image">Ürün Görseli</string>
+    <string name="premium_badge">PREMIUM</string>
+    <string name="view_details">Detayları Görüntüle</string>
+    
+    <!-- Settings -->
+    <string name="language_settings">Dil Ayarları</string>
+    <string name="language_updated_success">Dil başarıyla güncellendi</string>
+    <string name="welcome">Hoş geldin</string>
+    <string name="search_hint">Ürün veya danışman ara...</string>
+    <string name="platform_announcements">Platform Duyuruları</string>
+    <string name="no_active_announcements">Şu an aktif bir duyuru bulunmuyor.</string>
+    <string name="new_label_title">New</string>
+    <string name="economic_news">Ekonomi Haberleri</string>
+    <string name="empty_news">Boş</string>
+    <string name="quick_search">Hızlı Arama</string>
+    <string name="search_sector">Sektör</string>
+    <string name="search_company">Firma</string>
+    
+    <string name="action_send_b2b_request">B2B İsteği Gönder</string>
+    <string name="action_view_company_profile">Firma Profilini Görüntüle</string>
+    <string name="no_certificates_yet">Henüz bir sertifikanız bulunmuyor.</string>
+    <string name="action_open_pdf_source">PDF Kaynağını Aç</string>
+    <string name="action_view_certificate">Sertifikayı Görüntüle</string>
+    <string name="action_generate_certificate_pdf">Sertifika Oluştur (PDF)</string>
+    <string name="status_completed">Tamamlandı</string>
+    <string name="b2b_match_center">B2B Eşleştirme Merkezi</string>
+    <string name="action_add_internal_note">İç Not Ekle</string>
+    <string name="about_education">Eğitim Hakkında</string>
+
+    <!-- Error Messages -->
+    <string name="error_network">Lütfen internet bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="error_timeout">Bağlantı zaman aşımına uğradı, lütfen tekrar deneyin.</string>
+    <string name="error_unauthorized">Bu işlem için yetkiniz bulunmuyor.</string>
+    <string name="error_not_found">Aradığınız içerik bulunamadı.</string>
+    <string name="error_validation">Lütfen girdiğiniz bilgileri kontrol edip eksiksiz doldurun.</string>
+    <string name="error_unknown">Beklenmeyen bir hata oluştu, lütfen daha sonra tekrar deneyin.</string>
+
+    <!-- Actions -->
+    <string name="action_login">Giriş Yap</string>
+    <string name="action_retry">Tekrar Dene</string>
+    <string name="marketplace_external_disclaimer">İşlemler harici platformlarda gerçekleşmektedir. ITSO GLOBAL bu işlemlerden sorumlu değildir.</string>
+    <string name="marketplace_price_notice">Fiyatlar ve stok durumu harici platformlarda değişiklik gösterebilir.</string>
+    <string name="admin_meslek_gruplari">Meslek Grupları</string>
+    <string name="admin_meslek_gruplari_desc">Sektör seçim listesini ve meslek gruplarını yönet.</string>
+    <string name="footer_title">Kuruumsal Bilgiler</string>
+    <string name="footer_info">© 2024 ITSO GLOBAL Platformu. Tüm hakları saklıdır.\nMGA Creative Works tarafından geliştirilmiştir.\nİletişim: info@itso.org.tr</string>
+    <string name="nav_b2b_desc">Küresel ağınızı genişletin ve yeni iş ortakları bulun</string>
+    <string name="economic_news_desc">Dünyadan güncel ekonomi ve ticaret haberleri</string>
+    <string name="product_description_label">Ürün Açıklaması</string>
+    <string name="no_description">Açıklama bulunmuyor.</string>
+    <string name="close_button">Kapat</string>
+    <string name="login_text">Giriş Yap</string>
+    <string name="admin_panel_title">Admin Paneli (Sicil Yönetimi)</string>
+    <string name="admin_panel_desc">Sisteme giriş izinlerini yönet, Excel\'den toplu üye aktar.</string>
+    <string name="nav_education_desc">Platform eğitimlerini ve sertifikalarınızı yönetin.</string>
+    <string name="welcome_member">Üye</string>
+</resources>

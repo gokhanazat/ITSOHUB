@@ -1,0 +1,21 @@
+e: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/itsohub/App.kt:19:2 Unresolved reference 'Preview'.
+e: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/itsohub/ui/marketplace/MarketplaceConnectScreen.kt:248:29 Try catch is not supported around composable function invocations.
+e: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/itsohub/ui/marketplace/MarketplaceConnectScreen.kt:263:47 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/itsohub/ui/marketplace/MarketplaceConnectScreen.kt:271:47 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/itsohub/ui/marketplace/MarketplaceScreen.kt:102:47 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/src/commonMain/kotlin/com/mgacreative/itsohub/ui/marketplace/MarketplaceScreen.kt:265:51 @Composable invocations can only happen from the context of a @Composable function
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':composeApp:compileDebugKotlinAndroid'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 7s

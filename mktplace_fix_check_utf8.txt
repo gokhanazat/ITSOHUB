@@ -1,0 +1,107 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon JVM discovery is an incubating feature.
+Daemon will be stopped at the end of the build 
+Type-safe project accessors is an incubating feature.
+
+> Configure project :composeApp
+w: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/composeApp/build.gradle.kts:13:5: 'androidTarget(Action<KotlinAndroidTarget>): KotlinAndroidTarget' is deprecated. The 'org.jetbrains.kotlin.multiplatform' plugin will not be compatible with most of the Android Gradle plugins since Android Gradle Plugin version 9.0.0.
+
+Please use the 'com.android.kotlin.multiplatform.library' plugin instead. Read more: https://kotl.in/gradle/agp-new-kmp
+
+The change may require changing the structure of the your project. Read more: https://kotl.in/kmp-project-structure-migration
+./gradlew : e: file:///C:/User
+s/gkhna/AndroidStudioProjects/
+ITSOHUB/composeApp/build.gradl
+e.kts:44:28: Using 'platform(A
+ny): Dependency' is an error. 
+Scheduled for removal in Kotli
+n 2.3. Check KT-58759
+At line:1 char:1
++ ./gradlew :composeApp:compil
+eDebugKotlinAndroid --no-daemo
+n --no-conf ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (e: file:/  
+  //C:/U... Check KT-58759:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+w: Missing `androidTarget()` in Kotlin Multiplatform Project
+Missing `androidTarget()` Kotlin target in multiplatform project 'composeApp (:composeApp)'.
+The Android Gradle plugin was applied without creating a corresponding `androidTarget()` Kotlin Target
+plugins {
+    id("com.android.application")
+    kotlin("multiplatform")
+}
+
+kotlin {
+    androidTarget() // <-- please register this Android target
+}
+Solution:
+Please register the Android target.
+
+
+[Incubating] Problems report is available at: file:///C:/Users/gkhna/AndroidStudioProjects/ITSOHUB/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an 
+exception.
+
+* Where:
+Build file 'C:\Users\gkhna\And
+roidStudioProjects\ITSOHUB\com
+poseApp\build.gradle.kts' line
+: 13
+
+* What went wrong:
+Script compilation errors:
+
+  Line 13:     androidTarget {
+               ^ 'androidTarge
+t(Action<KotlinAndroidTarget>)
+: KotlinAndroidTarget' is depr
+ecated. The 'org.jetbrains.kot
+lin.multiplatform' plugin will
+ not be compatible with most o
+f the Android Gradle plugins s
+ince Android Gradle Plugin ver
+sion 9.0.0.
+                 
+                   Please use 
+the 'com.android.kotlin.multip
+latform.library' plugin instea
+d. Read more: https://kotl.in/
+gradle/agp-new-kmp
+                 
+                   The change 
+may require changing the struc
+ture of the your project. Read
+ more: https://kotl.in/kmp-pro
+ject-structure-migration
+
+  Line 44:             impleme
+ntation(platform(libs.firebase
+.bom))
+                              
+        ^ Using 'platform(Any)
+: Dependency' is an error. Sch
+eduled for removal in Kotlin 2
+.3. Check KT-58759
+
+2 errors
+
+* Try:
+> Run with --stacktrace option
+ to get the stack trace.
+> Run with --info or --debug o
+ption to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at https://hel
+p.gradle.org.
+
+BUILD FAILED in 11s
