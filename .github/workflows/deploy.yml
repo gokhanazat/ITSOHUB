@@ -1,0 +1,33 @@
+name: Fast Wasm Deploy
+
+on:
+  push:
+    branches:
+      - main  # Veya kullandığınız ana branş adı
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'gradle'
+
+      - name: Build Wasm
+        run: ./gradlew :composeApp:wasmJsBrowserDistribution
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy composeApp/build/dist/wasmJs/productionExecutable --project-name=itsohub

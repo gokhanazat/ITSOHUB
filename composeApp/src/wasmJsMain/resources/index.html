@@ -52,6 +52,18 @@
             }, 10000);
         };
     </script>
+    <script>
+        // Cloudflare'ın yolu bozmasını engellemek için base path'i sabitliyoruz
+        window.originalFetch = window.fetch;
+        window.fetch = function (input, init) {
+            if (typeof input === 'string' && (input.endsWith('.wasm') || input.endsWith('.js'))) {
+                if (!input.startsWith('http') && !input.startsWith('/')) {
+                    input = '/' + input;
+                }
+            }
+            return window.originalFetch(input, init);
+        };
+    </script>
     <script type="module" src="composeApp.js"></script>
 </body>
 </html>

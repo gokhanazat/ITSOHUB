@@ -1,27 +1,5 @@
-# Cloudflare Pages Headers configuration
-# Force local path resolution and block interfering external scripts
-
 /*
-  Access-Control-Allow-Origin: *
-  Cross-Origin-Embedder-Policy: unsafe-none
-  Cross-Origin-Opener-Policy: same-origin
-  Cross-Origin-Resource-Policy: cross-origin
-  X-Content-Type-Options: nosniff
-  # Block the beacon script entirely via CSP to prevent it from hijacking WASM paths
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';
-  # Preload WASM files to ensure they are fetched from the root before any scripts interfere
-  Link: </dd568dbcd078c0adf7cf.wasm>; rel=preload; as=fetch; crossorigin, </e0518ee8536e99215481.wasm>; rel=preload; as=fetch; crossorigin
-
-# Explicit MIME types for WASM
-/*.wasm
-  Content-Type: application/wasm
-  Access-Control-Allow-Origin: *
-  Cache-Control: no-cache, no-store, must-revalidate
-
-# Explicit MIME types for JS
-/*.js
-  Content-Type: application/javascript
-  Access-Control-Allow-Origin: *
-
-
-
+  cross-origin-embedder-policy: require-corp
+  cross-origin-opener-policy: same-origin
+  cross-origin-resource-policy: same-origin
+  content-security-policy: default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval';
