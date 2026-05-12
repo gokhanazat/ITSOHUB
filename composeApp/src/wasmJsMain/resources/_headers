@@ -1,5 +1,4 @@
 /*
-  cross-origin-embedder-policy: require-corp
-  cross-origin-opener-policy: same-origin
-  cross-origin-resource-policy: same-origin
-  content-security-policy: default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval';
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src *; img-src * data:; style-src * 'unsafe-inline';
