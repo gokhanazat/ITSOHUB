@@ -21,6 +21,15 @@ jobs:
           chmod +x gradlew
           ./gradlew wasmJsBrowserDistribution
 
+      - name: Create _headers file manually
+        run: |
+          cat <<EOF > composeApp/build/dist/wasmJs/productionExecutable/_headers
+          /*
+            Cross-Origin-Embedder-Policy: require-corp
+            Cross-Origin-Opener-Policy: same-origin
+            Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' blob:; connect-src *; img-src * data: blob:; style-src * 'unsafe-inline';
+          EOF
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
